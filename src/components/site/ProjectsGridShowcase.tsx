@@ -11,11 +11,11 @@ const allProjects = [
   // 5 Residential
   {
     id: "res-1",
-    img: residential,
-    category: "Residential",
-    title: "Lakeside Residence",
-    desc: "They wanted to run 4 ACs without crying over the power bill. We got this 8kW system up in 3 days.",
-    meta: "8 kW · Bengaluru",
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780243034/ChatGPT_Image_May_31_2026_09_26_50_PM_jkqdat.png",
+    category: "Utility",
+    title: "ONGC Agartala",
+    desc: "Powering critical infrastructure for India's public sector energy giants. A robust 250kW solar array installed to support ONGC operations in Agartala.",
+    meta: "250 kW · Agartala",
   },
   {
     id: "res-2",
