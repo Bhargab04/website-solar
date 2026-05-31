@@ -84,11 +84,11 @@ const allProjects = [
   },
   {
     id: "com-5",
-    img: commercial,
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780241841/ChatGPT_Image_May_31_2026_09_04_39_PM_zxneeu.png",
     category: "Commercial",
-    title: "City Hospital",
-    desc: "Hospitals cannot afford downtime. This system provides critical backup alongside massive daily savings.",
-    meta: "350 kW · Chennai",
+    title: "Dakshin Kamrup College",
+    desc: "Powering education with clean, sustainable energy. A high-efficiency 15kW rooftop solar system customized for classrooms, libraries, and laboratories.",
+    meta: "15 kW · Assam",
   },
   {
     id: "res-6",
