@@ -158,7 +158,7 @@ export function Hero() {
           className="lg:col-span-5 relative w-full min-h-[420px] h-full rounded-[2.5rem] overflow-hidden shadow-xl"
         >
           <iframe
-            src="https://player.cloudinary.com/embed/?cloud_name=dwjneqfb9&public_id=solara_video_1_m5lsmf&autoplay=true&loop=true&muted=true"
+            src="https://player.cloudinary.com/embed/?cloud_name=dwjneqfb9&public_id=solara_video_1_m5lsmf&player=%7B%22autoplay%22%3Atrue%2C%22muted%22%3Atrue%2C%22loop%22%3Atrue%7D"
             className="w-full h-full object-cover absolute inset-0 border-0"
             allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
             allowFullScreen
