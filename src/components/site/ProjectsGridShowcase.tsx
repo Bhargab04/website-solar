@@ -43,11 +43,11 @@ const allProjects = [
   },
   {
     id: "res-5",
-    img: residential,
-    category: "Residential",
-    title: "Heritage Home",
-    desc: "Installed with zero damage to the 80-year-old roof. A careful, bespoke mounting solution.",
-    meta: "7 kW · Jaipur",
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780243564/ChatGPT_Image_May_31_2026_09_35_44_PM_gcdx2k.png",
+    category: "Commercial",
+    title: "Lakhimpur Commerce College",
+    desc: "Empowering the next generation with renewable energy. We designed and installed a high-efficiency 12kW solar rooftop system on the college campus.",
+    meta: "12 kW · Lakhimpur",
   },
   // 5 Commercial
   {
