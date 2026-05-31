@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Star } from "lucide-react";
-import heroPoster from "@/assets/hero-solar.webp";
 
 const words = ["Foundations", "Solutions", "Future", "Support", "Build"];
 
@@ -158,21 +157,17 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.35 }}
           className="lg:col-span-5 relative w-full min-h-[420px] h-full rounded-[2.5rem] overflow-hidden shadow-xl"
         >
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover absolute inset-0"
-            poster={heroPoster}
-          >
-            <source src="/new-video.mp4" type="video/mp4" />
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-solar-panels-in-a-field-44247-large.mp4" type="video/mp4" />
-          </video>
+          <iframe
+            src="https://player.cloudinary.com/embed/?cloud_name=dwjneqfb9&public_id=solara_video_1_m5lsmf&autoplay=true&loop=true&muted=true"
+            className="w-full h-full object-cover absolute inset-0 border-0"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowFullScreen
+            title="Solara Energy Solutions"
+          />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0D2B55]/80 via-[#1B4F8A]/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0D2B55]/80 via-[#1B4F8A]/20 to-transparent pointer-events-none" />
 
-          <div className="absolute bottom-6 left-6 right-6">
+          <div className="absolute bottom-6 left-6 right-6 pointer-events-none">
             <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-md border border-white/20 rounded-2xl px-4 py-2.5">
               <span className="h-2 w-2 rounded-full bg-[#5CB85C] animate-pulse" />
 
