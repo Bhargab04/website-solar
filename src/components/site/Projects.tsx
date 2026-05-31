@@ -9,7 +9,7 @@ import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 const projects = [
   { img: residential, title: "Lakeside Residence", meta: "8 kW · Bengaluru", tag: "Residential" },
-  { img: commercial, title: "Northwind Logistics", meta: "420 kW · Pune", tag: "Commercial" },
+  { img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780241841/ChatGPT_Image_May_31_2026_09_04_39_PM_zxneeu.png", title: "Dakshin Kamrup College", meta: "15 kW · Assam", tag: "Commercial" },
   { img: farm, title: "Suryadeep Solar Farm", meta: "1.2 MW · Rajasthan", tag: "Utility" },
 ];
 
