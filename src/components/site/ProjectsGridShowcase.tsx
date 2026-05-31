@@ -52,11 +52,11 @@ const allProjects = [
   // 5 Commercial
   {
     id: "com-1",
-    img: commercial,
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780243904/ChatGPT_Image_May_31_2026_09_41_28_PM_qixl9i.png",
     category: "Commercial",
-    title: "Northwind Logistics",
-    desc: "A massive warehouse array. The business owner was tired of crazy overhead. Pays for itself in under 4 years.",
-    meta: "420 kW · Pune",
+    title: "Army Camp Narengi",
+    desc: "Reliable power for strategic defense installations. A robust 30kW solar system engineered and deployed to support operations at the Narengi Army Camp.",
+    meta: "30 kW · Narengi",
   },
   {
     id: "com-2",
