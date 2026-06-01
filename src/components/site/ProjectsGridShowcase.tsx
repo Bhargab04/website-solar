@@ -19,11 +19,11 @@ const allProjects = [
   },
   {
     id: "res-2",
-    img: farm,
-    category: "Residential",
-    title: "Suburban Villa",
-    desc: "A massive multi-level home that needed to eliminate its grid dependency. 10kW system seamlessly integrated.",
-    meta: "10 kW · Mumbai",
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780293071/ChatGPT_Image_Jun_1_2026_11_20_36_AM_abgsgl.png",
+    category: "Commercial",
+    title: "Rangsang Agro Producing Company",
+    desc: "Sustainable solar power for agricultural innovation. Designed and installed a custom 12kW system to power processing and cold storage facilities for the Rangsang Farmer Producer Company.",
+    meta: "12 kW · Assam",
   },
   {
     id: "res-3",
