@@ -76,11 +76,11 @@ const allProjects = [
   },
   {
     id: "com-4",
-    img: farm,
-    category: "Commercial",
-    title: "Steelworks Factory",
-    desc: "Heavy machinery requires heavy power. This rooftop array slashed peak-hour industrial tariffs significantly.",
-    meta: "2.1 MW · Gujarat",
+    img: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1780295977/ChatGPT_Image_Jun_1_2026_11_31_36_AM_akmqsu.png",
+    category: "Utility",
+    title: "Tezpur Agri-Solar Project",
+    desc: "Co-existing with local crop cultivation. A high-yield 100kW ground-mounted solar array designed to power agricultural machinery while supporting sustainable land-use practices.",
+    meta: "100 kW · Tezpur",
   },
   {
     id: "com-5",
