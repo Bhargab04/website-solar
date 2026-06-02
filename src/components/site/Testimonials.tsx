@@ -2,12 +2,12 @@ import { Star, BadgeCheck, MapPin } from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 const reviews = [
-  { name: "Arjun P.", initial: "A", color: "#1B4F8A", location: "Bengaluru", rating: 5, time: "2 weeks ago", text: "My summer AC bills were killing me, hitting ₹8,000 in May. The Solara guys put up a 5kW system and now my bill is literally ₹450. Best part? They didn't leave a single piece of trash in my yard." },
-  { name: "Rahul S.", initial: "R", color: "#2E7EC0", location: "Pune", rating: 5, time: "1 month ago", text: "I'm usually pretty skeptical about solar salesmen, but they were super honest. Didn't even try to upsell me on a battery because they said I didn't need one. Respect." },
-  { name: "Sneha R.", initial: "S", color: "#5CB85C", location: "Hyderabad", rating: 5, time: "2 months ago", text: "They actually showed up on time, finished the installation in exactly two days, and cleaned up before they left. Oh, and my power bill dropped 85%. Can't complain." },
-  { name: "Vikram & Anjali", initial: "V", color: "#1B4F8A", location: "Delhi", rating: 5, time: "3 months ago", text: "The government subsidy paperwork alone was stopping me from getting solar for years. Solara took care of literally every single form. I just had to sign." },
-  { name: "Priya T.", initial: "P", color: "#5BB5DC", location: "Chennai", rating: 5, time: "4 months ago", text: "We love checking the app every morning to see how much power we're making. It's kind of addictive honestly. System has been working flawlessly through the monsoon." },
-  { name: "Sameer D.", initial: "S", color: "#2E7EC0", location: "Mumbai", rating: 5, time: "6 months ago", text: "If you're on the fence, just do it. Best investment I made for the house this year. The 4kW system is plenty for our 3BHK, and the ROI is going to be under 4 years easily." },
+  { name: "Bhaskar B.", initial: "B", color: "#1B4F8A", location: "Guwahati", rating: 5, time: "2 weeks ago", text: "My summer AC bills were killing me, hitting ₹8,000 in May. The Solara guys put up a 5kW system and now my bill is literally ₹450. Best part? They didn't leave a single piece of trash in my yard." },
+  { name: "Jitu K.", initial: "J", color: "#2E7EC0", location: "Jorhat", rating: 5, time: "1 month ago", text: "I'm usually pretty skeptical about solar salesmen, but they were super honest. Didn't even try to upsell me on a battery because they said I didn't need one. Respect." },
+  { name: "Pranami S.", initial: "P", color: "#5CB85C", location: "Tezpur", rating: 5, time: "2 months ago", text: "They actually showed up on time, finished the installation in exactly two days, and cleaned up before they left. Oh, and my power bill dropped 85%. Can't complain." },
+  { name: "Mridul & Deepa", initial: "M", color: "#1B4F8A", location: "Dibrugarh", rating: 5, time: "3 months ago", text: "The government subsidy paperwork alone was stopping me from getting solar for years. Solara took care of literally every single form. I just had to sign." },
+  { name: "Ananya S.", initial: "A", color: "#5BB5DC", location: "Nagaon", rating: 5, time: "4 months ago", text: "We love checking the app every morning to see how much power we're making. It's kind of addictive honestly. System has been working flawlessly through the monsoon." },
+  { name: "Dhruba B.", initial: "D", color: "#2E7EC0", location: "Silchar", rating: 5, time: "6 months ago", text: "If you're on the fence, just do it. Best investment I made for the house this year. The 4kW system is plenty for our 3BHK, and the ROI is going to be under 4 years easily." },
 ];
 
 function GoogleG() {
