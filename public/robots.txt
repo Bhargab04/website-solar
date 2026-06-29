@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://solara.energy/sitemap.xml
+Sitemap: https://www.solaraenergysolutions.in/sitemap.xml

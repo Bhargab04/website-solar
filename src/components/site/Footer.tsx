@@ -1,4 +1,4 @@
-import { Sun, Instagram, Facebook, Linkedin, Twitter, ArrowRight } from "lucide-react";
+import { Instagram, Facebook, Linkedin, Twitter, ArrowRight } from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function Footer() {
@@ -16,12 +16,9 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1.2fr]">
           <ScrollReveal effect="fade-up">
-            <a href="#top" className="flex items-center gap-2.5 group w-fit">
-              <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#2E7EC0] to-[#5CB85C] shadow-[0_0_20px_rgba(92,184,92,0.25)] transition-transform group-hover:scale-105">
-                <Sun className="h-5 w-5 text-white" />
-              </span>
+            <a href="#top" className="flex items-center group w-fit">
               <span className="font-display text-2xl font-bold tracking-tight">
-                Solara<span className="text-[#5CB85C]">.</span>
+                Solara
               </span>
             </a>
             <p className="mt-6 max-w-sm text-base leading-relaxed text-blue-200/60">
@@ -60,8 +57,8 @@ export function Footer() {
                 <span className="w-1 h-1 rounded-full bg-[#5CB85C]" />
                 <a href="https://wa.me/9181016555?text=Hi%20Solara%2C%20I%27d%20like%20a%20free%20solar%20quote." target="_blank" rel="noreferrer" className="hover:text-[#5CB85C] transition-colors">Chat on WhatsApp</a>
               </li>
-              <li className="flex items-center gap-2"><span className="w-1 h-1 rounded-full bg-[#5BB5DC]" /> hello@solara.energy</li>
-              <li className="flex items-center gap-2"><span className="w-1 h-1 rounded-full bg-[#5BB5DC]" /> Bengaluru, India</li>
+              <li className="flex items-center gap-2"><span className="w-1 h-1 rounded-full bg-[#5BB5DC]" /> solaraenergy11@gmail.com</li>
+              <li className="flex items-center gap-2"><span className="w-1 h-1 rounded-full bg-[#5BB5DC]" /> Assam, India</li>
             </ul>
           </ScrollReveal>
         </div>
