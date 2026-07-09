@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Linkedin, Twitter, ArrowRight } from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
+import { Link } from "@tanstack/react-router";
 
 export function Footer() {
   return (
@@ -34,11 +35,61 @@ export function Footer() {
           </ScrollReveal>
 
           <ScrollReveal effect="fade-up" delay={0.1}>
-            <FooterCol title="Company" links={["About Us", "Our Projects", "Careers", "Press & Media"]} />
+            <div>
+              <h4 className="font-display text-sm font-semibold tracking-wider uppercase text-white/90">Company</h4>
+              <ul className="mt-6 space-y-3.5 text-sm text-blue-200/60">
+                <li>
+                  <Link to="/why-us" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/process" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Our Process
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/locations" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Locations Served
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </ScrollReveal>
 
           <ScrollReveal effect="fade-up" delay={0.2}>
-            <FooterCol title="Solutions" links={["Residential Solar", "Commercial Capacity", "Lifecycle Maintenance", "Government Subsidy"]} />
+            <div>
+              <h4 className="font-display text-sm font-semibold tracking-wider uppercase text-white/90">Solutions</h4>
+              <ul className="mt-6 space-y-3.5 text-sm text-blue-200/60">
+                <li>
+                  <Link to="/services" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Solar Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/projects" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Our Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/emi-calculator" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    EMI Calculator
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </ScrollReveal>
 
           <ScrollReveal effect="fade-up" delay={0.3}>
@@ -64,7 +115,7 @@ export function Footer() {
         </div>
 
         <ScrollReveal effect="fade-up" delay={0.4}>
-          <div className="mt-16 hidden md:flex flex-col items-center justify-between gap-4 border-t border-white/8 pt-8 text-sm text-blue-200/40 md:flex-row">
+          <div className="mt-12 hidden md:flex flex-col items-center justify-between gap-4 border-t border-white/8 pt-8 text-sm text-blue-200/40 md:flex-row">
             <p>© {new Date().getFullYear()} Solara Energy Solutions. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

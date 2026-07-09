@@ -10,9 +10,11 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as WhyUsRouteImport } from './routes/why-us'
+import { Route as SolarCompanyCityIdRouteImport } from './routes/solar-company-$cityId'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as ProjectsRouteImport } from './routes/projects'
 import { Route as ProcessRouteImport } from './routes/process'
+import { Route as LocationsRouteImport } from './routes/locations'
 import { Route as EmiCalculatorRouteImport } from './routes/emi-calculator'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as IndexRouteImport } from './routes/index'
@@ -20,6 +22,11 @@ import { Route as IndexRouteImport } from './routes/index'
 const WhyUsRoute = WhyUsRouteImport.update({
   id: '/why-us',
   path: '/why-us',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SolarCompanyCityIdRoute = SolarCompanyCityIdRouteImport.update({
+  id: '/solar-company-$cityId',
+  path: '/solar-company-$cityId',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ServicesRoute = ServicesRouteImport.update({
@@ -35,6 +42,11 @@ const ProjectsRoute = ProjectsRouteImport.update({
 const ProcessRoute = ProcessRouteImport.update({
   id: '/process',
   path: '/process',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LocationsRoute = LocationsRouteImport.update({
+  id: '/locations',
+  path: '/locations',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EmiCalculatorRoute = EmiCalculatorRouteImport.update({
@@ -57,18 +69,22 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
+  '/locations': typeof LocationsRoute
   '/process': typeof ProcessRoute
   '/projects': typeof ProjectsRoute
   '/services': typeof ServicesRoute
+  '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
+  '/locations': typeof LocationsRoute
   '/process': typeof ProcessRoute
   '/projects': typeof ProjectsRoute
   '/services': typeof ServicesRoute
+  '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
 }
 export interface FileRoutesById {
@@ -76,9 +92,11 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
+  '/locations': typeof LocationsRoute
   '/process': typeof ProcessRoute
   '/projects': typeof ProjectsRoute
   '/services': typeof ServicesRoute
+  '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
 }
 export interface FileRouteTypes {
@@ -87,27 +105,33 @@ export interface FileRouteTypes {
     | '/'
     | '/contact'
     | '/emi-calculator'
+    | '/locations'
     | '/process'
     | '/projects'
     | '/services'
+    | '/solar-company-$cityId'
     | '/why-us'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/contact'
     | '/emi-calculator'
+    | '/locations'
     | '/process'
     | '/projects'
     | '/services'
+    | '/solar-company-$cityId'
     | '/why-us'
   id:
     | '__root__'
     | '/'
     | '/contact'
     | '/emi-calculator'
+    | '/locations'
     | '/process'
     | '/projects'
     | '/services'
+    | '/solar-company-$cityId'
     | '/why-us'
   fileRoutesById: FileRoutesById
 }
@@ -115,9 +139,11 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ContactRoute: typeof ContactRoute
   EmiCalculatorRoute: typeof EmiCalculatorRoute
+  LocationsRoute: typeof LocationsRoute
   ProcessRoute: typeof ProcessRoute
   ProjectsRoute: typeof ProjectsRoute
   ServicesRoute: typeof ServicesRoute
+  SolarCompanyCityIdRoute: typeof SolarCompanyCityIdRoute
   WhyUsRoute: typeof WhyUsRoute
 }
 
@@ -128,6 +154,13 @@ declare module '@tanstack/react-router' {
       path: '/why-us'
       fullPath: '/why-us'
       preLoaderRoute: typeof WhyUsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/solar-company-$cityId': {
+      id: '/solar-company-$cityId'
+      path: '/solar-company-$cityId'
+      fullPath: '/solar-company-$cityId'
+      preLoaderRoute: typeof SolarCompanyCityIdRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/services': {
@@ -149,6 +182,13 @@ declare module '@tanstack/react-router' {
       path: '/process'
       fullPath: '/process'
       preLoaderRoute: typeof ProcessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/locations': {
+      id: '/locations'
+      path: '/locations'
+      fullPath: '/locations'
+      preLoaderRoute: typeof LocationsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/emi-calculator': {
@@ -179,9 +219,11 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ContactRoute: ContactRoute,
   EmiCalculatorRoute: EmiCalculatorRoute,
+  LocationsRoute: LocationsRoute,
   ProcessRoute: ProcessRoute,
   ProjectsRoute: ProjectsRoute,
   ServicesRoute: ServicesRoute,
+  SolarCompanyCityIdRoute: SolarCompanyCityIdRoute,
   WhyUsRoute: WhyUsRoute,
 }
 export const routeTree = rootRouteImport

@@ -14,16 +14,23 @@ import { WhatsAppFab } from "@/components/site/WhatsAppFab";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Solara — Stop paying the power company so much." },
+      { 
+        title: "Solara Energy Solutions | Best Solar Company in Assam & Northeast India" 
+      },
       {
         name: "description",
         content:
-          "We install solar panels that actually work. We'll handle the paperwork, do a clean install, and get your power bill down to near zero.",
+          "Solara Energy Solutions is the leading solar energy company in Assam and Northeast India. We provide premium residential, commercial, and industrial rooftop solar installations with APDCL net metering, PM Surya Ghar subsidy registration, and a 25-year warranty.",
       },
-      { property: "og:title", content: "Solara — Stop paying the power company" },
+      {
+        name: "keywords",
+        content:
+          "solar company Assam, solar panels Assam, solar installation Assam, best solar company in Assam, rooftop solar Assam, solar energy Northeast India, PM Surya Ghar vendor Assam, commercial solar plant Assam, residential solar system Assam",
+      },
+      { property: "og:title", content: "Solara Energy Solutions | Best Solar Company in Assam & Northeast India" },
       {
         property: "og:description",
-        content: "Stop renting your power. Own it.",
+        content: "Save up to 90% on electricity bills with Assam's leading rooftop solar partner. Empanelled PM Surya Ghar vendor. Turnkey EPC solutions.",
       },
     ],
   }),
@@ -31,8 +38,35 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const businessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Solara Energy Solutions",
+    "image": "https://www.solaraenergysolutions.in/assets/logo.png",
+    "priceRange": "$$$",
+    "telephone": "+91-81016555",
+    "url": "https://www.solaraenergysolutions.in/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "GS Road",
+      "addressLocality": "Guwahati",
+      "addressRegion": "Assam",
+      "postalCode": "781005",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.1445,
+      "longitude": 91.7362
+    },
+    "description": "Solara Energy Solutions is the leading solar energy company and empanelled rooftop solar installation vendor in Assam and Northeast India, providing turnkey on-grid solar power systems, PM Surya Ghar subsidy help, and APDCL net metering."
+  };
   return (
     <div className="min-h-screen bg-background">
+      {/* Inject JSON-LD Schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(businessSchema)}
+      </script>
       <Navbar />
       <main>
         <Hero />
