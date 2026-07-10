@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFab } from "@/components/site/WhatsAppFab";
@@ -178,18 +178,18 @@ function BlogPage() {
             </ScrollReveal>
             <ScrollReveal effect="fade-up" delay={0.3}>
               <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-                <a 
-                  href="#contact" 
+                <Link 
+                  to="/contact" 
                   className="inline-flex items-center gap-2 bg-[#5CB85C] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#5CB85C]/20 hover:-translate-y-0.5 hover:bg-[#4aa54a] transition-all duration-300 text-base"
                 >
                   Get a Free Quote <ArrowRight className="w-5 h-5" />
-                </a>
-                <a 
-                  href="/why-us" 
+                </Link>
+                <Link 
+                  to="/why-us" 
                   className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-bold px-8 py-4 rounded-full backdrop-blur hover:bg-white/20 transition-all duration-300 text-base shadow-sm"
                 >
                   Why Choose Solara
-                </a>
+                </Link>
               </div>
             </ScrollReveal>
           </div>
