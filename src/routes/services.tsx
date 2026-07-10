@@ -313,16 +313,26 @@ function ServicesPage() {
       
       <main>
         {/* Premium Hero Section - clean light backdrop with navy glaze overlay for visibility */}
-        <section className="relative pt-32 pb-20 lg:pt-44 lg:pb-32 text-center overflow-hidden bg-[#0D2B55]">
+        <section 
+          className="relative pt-40 pb-28 lg:pt-52 lg:pb-40 text-center overflow-hidden bg-slate-950"
+          style={{ clipPath: "inset(0px)" }}
+        >
           {/* Decorative Soft Blur Circles */}
-          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-[#5BB5DC]/20 rounded-bl-full z-0 pointer-events-none blur-3xl" />
+          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-slate-800/40 rounded-bl-full z-0 pointer-events-none blur-3xl" />
           <div className="absolute bottom-0 left-0 w-[20vw] h-[20vw] max-w-[300px] max-h-[300px] bg-[#5CB85C]/10 rounded-tr-full z-0 pointer-events-none blur-2xl" />
           
-          <div className="absolute inset-0 z-0">
-            <img src={imgHero} alt="Solar installation" className="w-full h-full object-cover opacity-100" />
-            <div className="absolute inset-0 bg-[#0D2B55]/55 mix-blend-multiply" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#0D2B55]/30 via-transparent to-[#0D2B55]/40" />
-          </div>
+          {/* Native GPU-accelerated fixed background parallax */}
+          <div
+            className="fixed inset-0 w-full h-full bg-cover bg-center bg-no-repeat pointer-events-none -z-10"
+            style={{
+              backgroundImage: `url(${imgHero})`,
+              transform: "translate3d(0,0,0)",
+              willChange: "transform"
+            }}
+          />
+          {/* Overlay dark multiply and gradients */}
+          <div className="absolute inset-0 bg-slate-950/15 mix-blend-multiply -z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/10 via-transparent to-slate-950/25 -z-10" />
 
           <div className="relative z-10 mx-auto max-w-4xl px-6 text-white">
             <ScrollReveal effect="fade-up" delay={0.05}>

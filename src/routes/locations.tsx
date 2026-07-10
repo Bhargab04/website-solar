@@ -49,8 +49,8 @@ function LocationsPage() {
 
       <main>
         {/* Premium Hero Section */}
-        <section className="relative pt-32 pb-20 lg:pt-44 lg:pb-32 text-center overflow-hidden bg-[#0D2B55]">
-          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-[#5BB5DC]/20 rounded-bl-full z-0 pointer-events-none blur-3xl" />
+        <section className="relative pt-40 pb-28 lg:pt-52 lg:pb-40 text-center overflow-hidden bg-slate-950">
+          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-slate-800/40 rounded-bl-full z-0 pointer-events-none blur-3xl" />
           <div className="absolute bottom-0 left-0 w-[20vw] h-[20vw] max-w-[300px] max-h-[300px] bg-[#5CB85C]/10 rounded-tr-full z-0 pointer-events-none blur-2xl" />
 
           <div className="relative z-10 mx-auto max-w-4xl px-6 text-white">
@@ -61,7 +61,7 @@ function LocationsPage() {
               </span>
             </ScrollReveal>
             <ScrollReveal effect="fade-up" delay={0.15}>
-              <h1 className="mt-3 font-display text-4xl font-bold tracking-tight md:text-6xl leading-[1.1] text-white">
+              <h1 className="mt-3 font-display text-4xl font-bold tracking-tight md:text-6xl lg:text-[4.5rem] leading-[1.1] text-white">
                 Locations We Serve in <br />
                 <span className="text-[#5CB85C]">Assam & Northeast</span>
               </h1>

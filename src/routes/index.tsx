@@ -16,19 +16,19 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { 
-        title: "Solara Energy Solutions | Best Solar Company in Assam & Northeast India" 
+        title: "Solara Energy Solutions | Best Solar Company in Assam" 
       },
       {
         name: "description",
         content:
-          "Solara Energy Solutions is the leading solar energy company in Assam and Northeast India. We provide premium residential, commercial, and industrial rooftop solar installations with APDCL net metering, PM Surya Ghar subsidy registration, and a 25-year warranty.",
+          "Assam's leading solar rooftop partner. Premium residential, commercial & industrial solar installations with APDCL net metering and PM Surya Ghar subsidies.",
       },
       {
         name: "keywords",
         content:
           "solar company Assam, solar panels Assam, solar installation Assam, best solar company in Assam, rooftop solar Assam, solar energy Northeast India, PM Surya Ghar vendor Assam, commercial solar plant Assam, residential solar system Assam",
       },
-      { property: "og:title", content: "Solara Energy Solutions | Best Solar Company in Assam & Northeast India" },
+      { property: "og:title", content: "Solara Energy Solutions | Best Solar Company in Assam" },
       {
         property: "og:description",
         content: "Save up to 90% on electricity bills with Assam's leading rooftop solar partner. Empanelled PM Surya Ghar vendor. Turnkey EPC solutions.",

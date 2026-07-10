@@ -144,8 +144,8 @@ function BlogPage() {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="relative pt-40 pb-24 lg:pt-52 lg:pb-32 text-center overflow-hidden bg-[#0D2B55]">
-          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-[#5BB5DC]/20 rounded-bl-full pointer-events-none blur-3xl" />
+        <section className="relative pt-40 pb-28 lg:pt-52 lg:pb-40 text-center overflow-hidden bg-slate-950">
+          <div className="absolute top-0 right-0 w-[30vw] h-[30vw] max-w-[500px] max-h-[500px] bg-slate-800/40 rounded-bl-full pointer-events-none blur-3xl" />
           <div className="absolute bottom-0 left-0 w-[20vw] h-[20vw] max-w-[300px] max-h-[300px] bg-[#5CB85C]/15 rounded-tr-full pointer-events-none blur-2xl" />
 
           {/* Clean themed background image matches Projects page Hero */}
@@ -153,9 +153,9 @@ function BlogPage() {
             <img
               src="https://res.cloudinary.com/dwjneqfb9/image/upload/v1783702395/american-public-power-association-513dBrMJ_5w-unsplash_njykhl.jpg"
               alt="Solar Background"
-              className="w-full h-full object-cover opacity-20"
+              className="w-full h-full object-cover opacity-95"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0D2B55] via-[#0D2B55]/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
           </div>
 
           <div className="relative z-10 mx-auto max-w-4xl px-6 text-white">
@@ -166,7 +166,7 @@ function BlogPage() {
               </span>
             </ScrollReveal>
             <ScrollReveal effect="fade-up" delay={0.1}>
-              <h1 className="mt-3 font-display text-5xl font-bold tracking-tight md:text-7xl leading-tight">
+              <h1 className="mt-3 font-display text-4xl font-bold tracking-tight md:text-6xl lg:text-[4.5rem] leading-[1.1]">
                 Solar Insights &<br />
                 <span className="text-[#5CB85C]">Expert Guides</span>
               </h1>
@@ -175,6 +175,22 @@ function BlogPage() {
               <p className="mt-6 text-lg lg:text-xl text-blue-100/80 leading-relaxed max-w-2xl mx-auto">
                 Everything you need to know about rooftop solar prices, government subsidies, net metering, and installation standards in Northeast India.
               </p>
+            </ScrollReveal>
+            <ScrollReveal effect="fade-up" delay={0.3}>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+                <a 
+                  href="#contact" 
+                  className="inline-flex items-center gap-2 bg-[#5CB85C] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#5CB85C]/20 hover:-translate-y-0.5 hover:bg-[#4aa54a] transition-all duration-300 text-base"
+                >
+                  Get a Free Quote <ArrowRight className="w-5 h-5" />
+                </a>
+                <a 
+                  href="/why-us" 
+                  className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white font-bold px-8 py-4 rounded-full backdrop-blur hover:bg-white/20 transition-all duration-300 text-base shadow-sm"
+                >
+                  Why Choose Solara
+                </a>
+              </div>
             </ScrollReveal>
           </div>
         </section>
@@ -210,11 +226,11 @@ function BlogPage() {
                     className="group cursor-pointer flex flex-col bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
                   >
                     {/* Cover Image */}
-                    <div className="w-full aspect-[3/2] overflow-hidden relative bg-[#0D2B55]">
+                    <div className="w-full aspect-[3/2] overflow-hidden relative bg-slate-100 flex items-center justify-center border-b border-slate-100">
                       <img
                         src={post.image}
                         alt={post.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-103"
                       />
                       <span className="absolute top-4 left-4 bg-[#1B4F8A] text-white text-xs font-semibold px-3 py-1.5 rounded-full z-20">
                         {post.category}
@@ -264,7 +280,7 @@ function BlogPage() {
                 className="relative bg-white w-full max-w-4xl max-h-[85vh] rounded-[2rem] overflow-hidden shadow-2xl flex flex-col"
               >
                 {/* Modal Header */}
-                <div className="relative px-6 py-5 md:px-10 md:py-6 bg-[#0D2B55] text-white shrink-0 flex items-center justify-between border-b border-[#1B4F8A]/30">
+                <div className="relative px-6 py-5 md:px-10 md:py-6 bg-slate-900 text-white shrink-0 flex items-center justify-between border-b border-slate-800/40">
                   <div className="pr-6">
                     <span className="bg-[#5CB85C] text-white text-[10px] md:text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2.5 inline-block">
                       {selectedPost.category}
