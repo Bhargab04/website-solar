@@ -57,6 +57,12 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/blog" className="transition-colors hover:text-[#5CB85C] flex items-center group">
+                    <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                    Blog
+                  </Link>
+                </li>
+                <li>
                   <Link to="/contact" className="transition-colors hover:text-[#5CB85C] flex items-center group">
                     <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
                     Contact Us
