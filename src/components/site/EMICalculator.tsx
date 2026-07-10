@@ -27,6 +27,7 @@ interface SliderInputProps {
   unit?: string;
   editable?: boolean;
   freeType?: boolean;
+  prefix?: string;
 }
 
 function SliderInput({
@@ -40,6 +41,7 @@ function SliderInput({
   unit,
   editable,
   freeType,
+  prefix,
 }: SliderInputProps) {
   const clamped = Math.min(Math.max(value, min), max);
   const pct = ((clamped - min) / (max - min)) * 100;
@@ -70,7 +72,7 @@ function SliderInput({
 
         {editable && typing ? (
           <div className="emi-slider-input-wrap">
-            <span className="emi-slider-input-prefix">₹</span>
+            {prefix && <span className="emi-slider-input-prefix">{prefix}</span>}
             <input
               autoFocus
               type="text"
@@ -80,11 +82,12 @@ function SliderInput({
               onKeyDown={handleInputKey}
               className="emi-slider-input"
             />
+            {unit && <span className="emi-slider-value-unit">{unit}</span>}
           </div>
         ) : (
           <span
             onClick={editable ? handleDisplayClick : undefined}
-            title={editable ? "Click to type an amount" : undefined}
+            title={editable ? "Click to type" : undefined}
             className={`emi-slider-value${editable ? "" : " readonly"}`}
           >
             {format(clamped)}
@@ -240,7 +243,7 @@ export function EMICalculator() {
 
             <SliderInput
               label="Loan Amount" value={principal} min={1000} max={10_000_000} step={50000}
-              onChange={setPrincipal} format={formatLakh} editable freeType
+              onChange={setPrincipal} format={formatLakh} editable freeType prefix="₹"
             />
             <SliderInput
               label="Interest Rate" value={rate} min={1} max={20} step={0.1}
@@ -255,6 +258,7 @@ export function EMICalculator() {
               onChange={setTenure}
               format={(v) => v}
               unit={tenureType}
+              editable
             />
 
             {/* Toggle */}

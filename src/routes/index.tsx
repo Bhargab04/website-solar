@@ -6,6 +6,7 @@ import { Services } from "@/components/site/Services";
 import { WhyUs } from "@/components/site/WhyUs";
 import { Process } from "@/components/site/Process";
 import { Testimonials } from "@/components/site/Testimonials";
+import { SolarParallax } from "@/components/site/SolarParallax";
 import { CTA } from "@/components/site/CTA";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFab } from "@/components/site/WhatsAppFab";
@@ -75,6 +76,8 @@ function Index() {
         <WhyUs />
           <Process />
         <Testimonials />
+
+        <SolarParallax />
 
         <CTA />
       </main>
