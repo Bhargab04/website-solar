@@ -6,7 +6,7 @@ import { ProjectsGridShowcase } from "@/components/site/ProjectsGridShowcase";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { ArrowRight } from "lucide-react";
 
-import imgHero from "@/assets/pexels-giantasparagus-35501734.jpg";
+import imgHero from "@/assets/pexels-giantasparagus-35501734.webp";
 
 export const Route = createFileRoute("/projects")({
   head: () => ({

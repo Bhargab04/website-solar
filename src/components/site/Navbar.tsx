@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "@tanstack/react-router";
 import { Menu, X, ChevronRight, Calculator, MessageCircle } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoImg from "@/assets/WhatsApp_Image_2026-05-10_at_3.36.29_PM__2_-removebg-preview.png";
+import logoImg from "@/assets/WhatsApp_Image_2026-05-10_at_3.36.29_PM__2_-removebg-preview.webp";
 
 const links = [
   { to: "/services", label: "Services" },

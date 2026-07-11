@@ -7,11 +7,11 @@ import { CTA } from "@/components/site/CTA";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import { Eye, Shield, Target, ArrowRight, Quote } from "lucide-react";
 
-import imgStory from "@/assets/hero-story.png";
-import imgWhatsApp from "@/assets/WhatsApp Image 2026-05-07 at 1.23.45 PM.jpeg";
-import imgShield from "@/assets/real_shield.png";
-import imgPhone from "@/assets/real_phone.png";
-import imgGraph from "@/assets/real_graph.png";
+import imgStory from "@/assets/hero-story.webp";
+import imgWhatsApp from "@/assets/WhatsApp Image 2026-05-07 at 1.23.45 PM.webp";
+import imgShield from "@/assets/real_shield.webp";
+import imgPhone from "@/assets/real_phone.webp";
+import imgGraph from "@/assets/real_graph.webp";
 
 export const Route = createFileRoute("/why-us")({
   head: () => ({

@@ -26,10 +26,10 @@ import {
 } from "lucide-react";
 
 // Brand-consistent image assets
-import imgPowerPlant from "@/assets/solar-power-plant.png";
-import imgWaterPump from "@/assets/solar-water-pump.png";
-import imgWaterHeater from "@/assets/solar-water-heater.png";
-import imgHero from "@/assets/hero-services.jpg";
+import imgPowerPlant from "@/assets/solar-power-plant.webp";
+import imgWaterPump from "@/assets/solar-water-pump.webp";
+import imgWaterHeater from "@/assets/solar-water-heater.webp";
+import imgHero from "@/assets/hero-services.webp";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
