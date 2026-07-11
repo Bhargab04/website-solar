@@ -15,7 +15,7 @@ export function Footer() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1.2fr]">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-[1.2fr_0.8fr_0.8fr_0.8fr_1.2fr]">
           <ScrollReveal effect="fade-up">
             <a href="#top" className="flex items-center group w-fit">
               <span className="font-display text-2xl font-bold tracking-tight">
@@ -72,7 +72,7 @@ export function Footer() {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal effect="fade-up" delay={0.2}>
+          <ScrollReveal effect="fade-up" delay={0.15}>
             <div>
               <h4 className="font-display text-sm font-semibold tracking-wider uppercase text-white/90">Solutions</h4>
               <ul className="mt-6 space-y-3.5 text-sm text-blue-200/60">
@@ -94,6 +94,33 @@ export function Footer() {
                     EMI Calculator
                   </Link>
                 </li>
+              </ul>
+            </div>
+          </ScrollReveal>
+
+          <ScrollReveal effect="fade-up" delay={0.2}>
+            <div>
+              <h4 className="font-display text-sm font-semibold tracking-wider uppercase text-white/90">Top Cities</h4>
+              <ul className="mt-6 space-y-3.5 text-sm text-blue-200/60">
+                {[
+                  { id: "guwahati", name: "Guwahati" },
+                  { id: "jorhat", name: "Jorhat" },
+                  { id: "dibrugarh", name: "Dibrugarh" },
+                  { id: "silchar", name: "Silchar" },
+                  { id: "tezpur", name: "Tezpur" },
+                  { id: "nagaon", name: "Nagaon" }
+                ].map((city) => (
+                  <li key={city.id}>
+                    <Link 
+                      to="/solar-company-$cityId"
+                      params={{ cityId: city.id }}
+                      className="transition-colors hover:text-[#5CB85C] flex items-center group"
+                    >
+                      <ArrowRight className="h-3 w-3 mr-2 opacity-0 -ml-5 transition-all group-hover:opacity-100 group-hover:ml-0 text-[#5CB85C]" />
+                      Solar in {city.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </ScrollReveal>

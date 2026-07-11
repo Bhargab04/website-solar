@@ -227,14 +227,14 @@ const CITY_DATABASE: Record<string, CityInfo> = {
 // Fallback Assam data if city does not match
 const ASSAM_FALLBACK: CityInfo = {
   name: "Assam",
-  tagline: "Assam's Leading Rooftop Solar Installer & PM Surya Ghar Partner",
-  summary: "Solara Energy Solutions is the top solar company in Assam, installing high-performance solar power plants, solar water heaters, and solar pumps. We serve the entire state of Assam, ensuring residential, commercial, and industrial consumers save up to 90% on their APDCL electricity bills.",
+  tagline: "Assam's Leading Rooftop Solar Installer & Empanelled Solar Vendor in Assam",
+  summary: "Solara Energy Solutions is the top solar company and leading empanelled solar vendor in Assam, installing high-performance solar power plants, solar water heaters, and solar pumps. We serve the entire state of Assam, ensuring residential, commercial, and industrial consumers save up to 90% on their APDCL electricity bills.",
   focusArea: "Residential homes, commercial businesses, factories, schools, hotels, and tea gardens across Assam.",
   addressLocality: "Assam",
   postalCode: "781005",
   lat: 26.1445,
   lng: 91.7362,
-  localContext: "Empanelled vendor providing turnkey installation and subsidy coordination across all districts of Assam."
+  localContext: "Empanelled solar vendor providing turnkey installation and subsidy coordination across all districts of Assam."
 };
 
 // Target Questions to answer (FAQ format)
@@ -289,23 +289,23 @@ export const Route = createFileRoute("/solar-company-$cityId")({
     return {
       meta: [
         { 
-          title: `Solar Company in ${city.name} | Best Solar Panel Installer in Assam` 
+          title: `Solar Company & Empanelled Solar Vendor in ${city.name} | Assam` 
         },
         {
           name: "description",
-          content: `Looking for the best solar company in ${city.name}, Assam? Solara Energy Solutions provides high-efficiency solar panel installations, APDCL net metering, and PM Surya Ghar subsidy assistance.`
+          content: `Looking for the best solar company or empanelled solar vendor in ${city.name}, Assam? Solara Energy Solutions provides high-efficiency solar panel installations, APDCL net metering, and PM Surya Ghar subsidy assistance.`
         },
         { 
           name: "keywords", 
-          content: `Solar Company ${city.name}, Solar Rooftop ${city.name}, Solar Installation ${city.name}, Solar Panel Dealer ${city.name}, Best solar company in ${city.name}, PM Surya Ghar ${city.name}, Solar subsidy ${city.name}, APDCL net metering, Adani solar panels ${city.name}, Residential Solar ${city.name}` 
+          content: `Solar Vendor ${city.name}, Empanelled Solar Vendor ${city.name}, Solar Vendor in Assam, Empanelled Solar Vendor in Assam, Solar Company ${city.name}, Solar Rooftop ${city.name}, Solar Installation ${city.name}, Solar Panel Dealer ${city.name}, Best solar company in ${city.name}, PM Surya Ghar ${city.name}, Solar subsidy ${city.name}, APDCL net metering, Adani solar panels ${city.name}, Residential Solar ${city.name}` 
         },
         { 
           property: "og:title", 
-          content: `Solar Company in ${city.name} | Solara Energy Solutions` 
+          content: `Solar Company & Empanelled Solar Vendor in ${city.name} | Solara Energy Solutions` 
         },
         { 
           property: "og:description", 
-          content: `Switch to rooftop solar in ${city.name}, Assam. Get up to ₹1,30,800 subsidy under PM Surya Ghar Muft Bijli Yojana. Save 90% on electricity bills.` 
+          content: `Switch to rooftop solar with a certified solar vendor in ${city.name}, Assam. Get up to ₹1,30,800 subsidy under PM Surya Ghar Muft Bijli Yojana. Save 90% on electricity bills.` 
         }
       ]
     };

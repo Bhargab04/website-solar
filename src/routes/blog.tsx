@@ -35,77 +35,7 @@ interface Post {
   image: string;
 }
 
-const posts: Post[] = [
-  {
-    id: "power-home-adani-solar-panels",
-    category: "Solar Tech",
-    title: "Power Your Home with 615 WP Adani TOPCon Solar Panels",
-    excerpt: "Learn why 615 WP Adani TOPCon Panels installed by Solara Energy Solutions are the ideal choice for residential and commercial solar rooftops in Assam.",
-    date: "July 10, 2026",
-    readTime: "3 min read",
-    author: "Solara Editorial Team",
-    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1783708298/WhatsApp_Image_2026-07-10_at_1.11.04_AM_wigsn5.jpg",
-    content: `
-## Power Your Home with High-Efficiency Adani TOPCon Panels
-Power your home with 615 WP Adani TOPCon Solar Panels installed by Solara Energy Solutions, one of Assam’s most trusted solar EPC companies. As an experienced installer under the PM Surya Ghar Muft Bijli Yojana, we provide complete rooftop solar solutions with premium HDGI (Zinc Coated) structures for maximum strength, corrosion resistance, and long-term durability.
-
-## Complete Hassle-Free Management
-Our expert team manages everything from start to finish, ensuring a smooth and hassle-free experience:
-- Free site survey and load assessment
-- Custom system design and layout engineering
-- High-quality professional installation
-- Net metering registration assistance with APDCL
-- Subsidy application support
-- Dedicated after-sales service and maintenance
-
-We use genuine, high-efficiency solar panels and quality components to maximize energy generation and help you achieve faster returns on your investment.
-
-## Customized Capacities & Reliability
-Whether you’re looking for a 3kW, 5kW, 10kW, or commercial solar rooftop system, Solara Energy Solutions offers customized solutions at competitive prices without compromising on quality. We are committed to delivering reliable workmanship, transparent pricing, timely installation, and dedicated customer support.
-
-Choose Solara Energy Solutions and join hundreds of satisfied customers who are reducing electricity bills while contributing to a cleaner, greener future. Install premium solar today and enjoy decades of dependable, sustainable power.
-
-## Trending Keywords
-Solar Rooftop Assam, Solar Panel Installation Assam, Rooftop Solar Guwahati, PM Surya Ghar Muft Bijli Yojana, Solar Subsidy Assam, Adani Solar Panels, TOPCon Solar Panels, Residential Solar System, Commercial Solar Installation, Net Metering, Solar EPC Company Assam, Best Solar Company in Assam, Solar Energy Solutions, Home Solar System, Solar Power Plant, Renewable Energy India, Electricity Bill Savings, High Efficiency Solar Panels, HDGI Structure, Solar Financing.
-    `
-  },
-  {
-    id: "best-solar-company-assam",
-    category: "Guides",
-    title: "Best Solar Panel Installation Company in Assam & Northeast India",
-    excerpt: "Choose Solara Energy Solutions, your trusted partner for premium rooftop solar systems for homes, businesses, and industries across Assam.",
-    date: "July 10, 2026",
-    readTime: "4 min read",
-    author: "Solara Editorial Team",
-    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1783707161/WhatsApp_Image_2026-07-10_at_1.09.49_AM_usimry.jpg",
-    content: `
-## Looking for the best solar panel installation company in Assam or Northeast India?
-Choose Solara Energy Solutions, your trusted partner for premium rooftop solar systems for homes, businesses, industries, schools, hospitals, and commercial establishments. We specialize in installing **615 WP Adani TOPCon Solar Panels** with premium HDGI (Zinc Coated) structures, ensuring maximum durability, higher energy generation, and long-term reliability.
-
-## Complete End-to-End Solar Solutions
-As an experienced installer under the **PM Surya Ghar Muft Bijli Yojana**, we provide complete end-to-end solar solutions:
-- **FREE Site Survey** & customized system design
-- **Professional Installation** & high-quality workmanship
-- **Net Metering Assistance** for APDCL connections
-- **Subsidy Guidance** to claim MNRE and state incentives
-- **Financing Support** & flexible EMI payment plans
-- **Dedicated After-Sales Service** and maintenance support
-
-Our mission is to help every household and business reduce electricity bills while investing in clean, renewable energy.
-
-## Custom Scale Installations
-Whether you need a 1kW, 2kW, 3kW, 5kW, 10kW, 20kW, 50kW, 100kW or industrial solar power plant, our expert team delivers high-quality workmanship using genuine components from leading brands. With transparent pricing, fast installation, and customer-first service, Solara Energy Solutions has become a trusted name across Assam and Northeast India.
-
-## Contact Us Today
-- 📞 **Call/WhatsApp**: [+91 91810 16555](tel:+919181016555)
-- **Solara Energy Solutions** – Powering Homes, Businesses & Industries with Clean Energy Across Assam, Guwahati, Dibrugarh, Jorhat, Sivasagar, Golaghat, Nagaon, Tezpur, Silchar, Tinsukia, Bongaigaon, Barpeta, Dhubri, Kokrajhar, Karimganj, Lakhimpur, Dhemaji, Nalbari, Morigaon, Sonitpur and the entire Northeast India. 
-- *Save more. Go Solar. Go Solara.*
-
-## Keywords
-*Solar Panel Installation Assam, Best Solar Company Assam, Rooftop Solar Assam, Solar EPC Company Assam, Solar Rooftop Guwahati, Solar Panel Dealer Assam, PM Surya Ghar Muft Bijli Yojana, Solar Subsidy Assam, Adani Solar Panels, TOPCon Solar Panels, Residential Solar System, Commercial Solar System, Industrial Solar Plant, Net Metering, Solar Financing, Solar Power Plant, Renewable Energy, Home Solar Installation, Solar Company Near Me, Rooftop Solar Northeast India.*
-    `
-  }
-];
+const posts: Post[] = [];
 
 const parseMarkdownInline = (text: string) => {
   const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
@@ -219,45 +149,51 @@ function BlogPage() {
             {/* Posts Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <ScrollRevealGroup stagger={0.08} className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full col-span-2">
-                {filteredPosts.map((post) => (
-                  <article
-                    key={post.id}
-                    onClick={() => setSelectedPost(post)}
-                    className="group cursor-pointer flex flex-col bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                  >
-                    {/* Cover Image */}
-                    <div className="w-full aspect-[3/2] overflow-hidden relative bg-slate-100 flex items-center justify-center border-b border-slate-100">
-                      <img
-                        src={post.image}
-                        alt={post.title}
-                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-103"
-                      />
-                      <span className="absolute top-4 left-4 bg-[#1B4F8A] text-white text-xs font-semibold px-3 py-1.5 rounded-full z-20">
-                        {post.category}
-                      </span>
-                    </div>
+                {filteredPosts.length > 0 ? (
+                  filteredPosts.map((post) => (
+                    <article
+                      key={post.id}
+                      onClick={() => setSelectedPost(post)}
+                      className="group cursor-pointer flex flex-col bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+                    >
+                      {/* Cover Image */}
+                      <div className="w-full aspect-[3/2] overflow-hidden relative bg-slate-100 flex items-center justify-center border-b border-slate-100">
+                        <img
+                          src={post.image}
+                          alt={post.title}
+                          className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-103"
+                        />
+                        <span className="absolute top-4 left-4 bg-[#1B4F8A] text-white text-xs font-semibold px-3 py-1.5 rounded-full z-20">
+                          {post.category}
+                        </span>
+                      </div>
 
-                    {/* Metadata & Title */}
-                    <div className="p-6 flex-1 flex flex-col justify-between">
-                      <div>
-                        <div className="flex items-center gap-4 text-xs text-slate-400 mb-3.5">
-                          <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" />{post.date}</span>
-                          <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime}</span>
+                      {/* Metadata & Title */}
+                      <div className="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                          <div className="flex items-center gap-4 text-xs text-slate-400 mb-3.5">
+                            <span className="flex items-center gap-1"><Calendar className="w-3.5 h-3.5" />{post.date}</span>
+                            <span className="flex items-center gap-1"><Clock className="w-3.5 h-3.5" />{post.readTime}</span>
+                          </div>
+                          <h3 className="font-display text-xl font-bold text-[#1B4F8A] mb-3 group-hover:text-[#5CB85C] transition-colors line-clamp-2">
+                            {post.title}
+                          </h3>
+                          <p className="text-slate-500 text-sm leading-relaxed mb-6 line-clamp-3">
+                            {post.excerpt}
+                          </p>
                         </div>
-                        <h3 className="font-display text-xl font-bold text-[#1B4F8A] mb-3 group-hover:text-[#5CB85C] transition-colors line-clamp-2">
-                          {post.title}
-                        </h3>
-                        <p className="text-slate-500 text-sm leading-relaxed mb-6 line-clamp-3">
-                          {post.excerpt}
-                        </p>
-                      </div>
 
-                      <div className="inline-flex items-center gap-1.5 text-sm font-bold text-[#1B4F8A] group-hover:gap-2.5 transition-all">
-                        Read Guide <ArrowRight className="w-4 h-4 text-[#1B4F8A]" />
+                        <div className="inline-flex items-center gap-1.5 text-sm font-bold text-[#1B4F8A] group-hover:gap-2.5 transition-all">
+                          Read Guide <ArrowRight className="w-4 h-4 text-[#1B4F8A]" />
+                        </div>
                       </div>
-                    </div>
-                  </article>
-                ))}
+                    </article>
+                  ))
+                ) : (
+                  <div className="col-span-2 text-center py-16 bg-white rounded-3xl border border-slate-100 p-8 shadow-xs">
+                    <p className="text-slate-400 font-medium">New guides and articles are coming soon. Stay tuned!</p>
+                  </div>
+                )}
               </ScrollRevealGroup>
             </div>
           </div>

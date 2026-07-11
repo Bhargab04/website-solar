@@ -31,11 +31,11 @@ export const Route = createFileRoute("/locations")({
       { title: "Locations We Serve in Assam | Solara Energy Solutions" },
       {
         name: "description",
-        content: "Solara Energy Solutions serves homes, businesses, and tea estates across Assam. Discover our local solar installation services and subsidy information for your city.",
+        content: "Solara Energy Solutions is a certified solar vendor in Assam serving homes, businesses, and tea estates. Discover local solar installation services, PM Surya Ghar subsidy help, and APDCL grid instructions for your city.",
       },
       {
         name: "keywords",
-        content: "solar company guwahati, solar company jorhat, solar company dibrugarh, solar panels assam, pm surya ghar vendor assam",
+        content: "solar vendor in assam, empanelled solar vendor assam, solar company guwahati, solar company jorhat, solar company dibrugarh, solar panels assam, pm surya ghar vendor assam",
       }
     ],
   }),

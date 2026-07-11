@@ -4,6 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { Ticker } from "@/components/site/Ticker";
 import { Services } from "@/components/site/Services";
 import { WhyUs } from "@/components/site/WhyUs";
+import { SuryaGhar } from "@/components/site/SuryaGhar";
 import { Process } from "@/components/site/Process";
 import { Testimonials } from "@/components/site/Testimonials";
 import { SolarParallax } from "@/components/site/SolarParallax";
@@ -16,22 +17,22 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { 
-        title: "Solara Energy Solutions | Best Solar Company in Assam" 
+        title: "Solara Energy Solutions | Best Solar Company & Empanelled Solar Vendor in Assam" 
       },
       {
         name: "description",
         content:
-          "Assam's leading solar rooftop partner. Premium residential, commercial & industrial solar installations with APDCL net metering and PM Surya Ghar subsidies.",
+          "Assam's leading empanelled solar vendor and rooftop partner. Premium residential, commercial & industrial solar installations with APDCL net metering and PM Surya Ghar subsidies.",
       },
       {
         name: "keywords",
         content:
-          "solar company Assam, solar panels Assam, solar installation Assam, best solar company in Assam, rooftop solar Assam, solar energy Northeast India, PM Surya Ghar vendor Assam, commercial solar plant Assam, residential solar system Assam",
+          "solar vendor in Assam, empanelled solar vendor in Assam, solar company Assam, solar panels Assam, solar installation Assam, best solar company in Assam, rooftop solar Assam, solar energy Northeast India, PM Surya Ghar vendor Assam, commercial solar plant Assam, residential solar system Assam",
       },
-      { property: "og:title", content: "Solara Energy Solutions | Best Solar Company in Assam" },
+      { property: "og:title", content: "Solara Energy Solutions | Best Solar Company & Empanelled Solar Vendor in Assam" },
       {
         property: "og:description",
-        content: "Save up to 90% on electricity bills with Assam's leading rooftop solar partner. Empanelled PM Surya Ghar vendor. Turnkey EPC solutions.",
+        content: "Save up to 90% on electricity bills with Assam's leading empanelled solar vendor and rooftop solar partner. PM Surya Ghar empanelled vendor. Turnkey EPC solutions.",
       },
     ],
   }),
@@ -73,6 +74,7 @@ function Index() {
         <Hero />
         <Ticker />
         <Services />
+        <SuryaGhar />
         <WhyUs />
           <Process />
         <Testimonials />

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Home, Building2, ShieldCheck, Zap, ArrowRight } from "lucide-react";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
+import { Link } from "@tanstack/react-router";
 
 const services = [
   {
@@ -85,13 +86,13 @@ export function Services() {
                   ))}
                 </ul>
 
-                <a
-                  href="#contact"
+                <Link
+                  to="/services"
                   className="inline-flex items-center gap-1.5 text-sm font-bold transition-colors group-hover:gap-2.5"
                   style={{ color: s.accent }}
                 >
                   Learn more <ArrowRight className="h-3.5 w-3.5 transition-all" />
-                </a>
+                </Link>
               </div>
             </motion.article>
           ))}
