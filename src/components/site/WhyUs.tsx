@@ -38,10 +38,10 @@ export function WhyUs() {
         <div className="text-center mb-16">
           <ScrollReveal effect="fade-up">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#5CB85C]">Why choose us</span>
-            <h2 className="mt-4 font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl leading-tight">
+            <h1 className="mt-4 font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl leading-tight">
               Performance you trust.<br />
               <span className="text-[#5CB85C]">Power you keep.</span>
-            </h2>
+            </h1>
           </ScrollReveal>
         </div>
 
