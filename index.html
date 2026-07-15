@@ -28,25 +28,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Initial Page Loader Styles -->
+    <style>
+      .initial-loader-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #ffffff;
+        z-index: 9999;
+        font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+      }
+      .initial-loader-spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #EDF2F8;
+        border-top-color: #1B4F8A;
+        border-radius: 50%;
+        animation: initial-spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      .initial-loader-text {
+        color: #1B4F8A;
+        font-size: 1.1rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        animation: initial-pulse 1.8s ease-in-out infinite;
+      }
+      @keyframes initial-spin {
+        to { transform: rotate(360deg); }
+      }
+      @keyframes initial-pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+    </style>
   </head>
   <body>
     <div id="root">
-      <h1>Solara Energy Solutions - Best Solar Company & Empanelled Solar Vendor in Assam</h1>
-      <p>
-        Solara Energy Solutions is the leading turnkey solar energy contractor and empanelled solar vendor in Assam and Northeast India. We specialize in designing, engineering, and installing high-performance residential, commercial, and industrial rooftop solar power plants.
-      </p>
-      <h2>Turnkey Solar EPC Solutions in Assam & Northeast</h2>
-      <p>
-        As a trusted solar company, our experienced engineering team provides complete end-to-end solar solutions. Our services include a free site survey, custom solar system engineering, panel installation, APDCL net metering integration, and dedicated maintenance support. We specialize in installing premium 615 WP Adani TOPCon Solar Panels mounted on hot-dip galvanized (HDGI) structures to ensure maximum durability, wind resistance, and energy generation.
-      </p>
-      <h2>PM Surya Ghar Muft Bijli Yojana Subsidy Assistance</h2>
-      <p>
-        We are an empanelled solar vendor under the government's PM Surya Ghar Muft Bijli Yojana. Our team assists residential homeowners across Guwahati, Jorhat, Dibrugarh, Tezpur, Silchar, and all of Assam in claiming state and central MNRE subsidies of up to ₹1,30,800. We manage 100% of the APDCL net metering and subsidy registration paperwork, making your transition to clean energy simple and hassle-free.
-      </p>
-      <h2>Save Up to 90% on Your Electricity Bills</h2>
-      <p>
-        Switching to solar power allows you to dramatically reduce or eliminate your monthly electricity expenses. Whether you need a 3kW, 5kW, 10kW residential system, or a large-scale commercial solar plant, Solara Energy Solutions delivers premium workmanship, transparent pricing, and industry-leading after-sales support. Power your home or business with clean, sustainable, and reliable solar energy today.
-      </p>
+      <!-- SEO content (visually hidden but accessible to search engines) -->
+      <div style="display: none;">
+        <h1>Solara Energy Solutions - Best Solar Company & Empanelled Solar Vendor in Assam</h1>
+        <p>
+          Solara Energy Solutions is the leading turnkey solar energy contractor and empanelled solar vendor in Assam and Northeast India. We specialize in designing, engineering, and installing high-performance residential, commercial, and industrial rooftop solar power plants.
+        </p>
+        <h2>Turnkey Solar EPC Solutions in Assam & Northeast</h2>
+        <p>
+          As a trusted solar company, our experienced engineering team provides complete end-to-end solar solutions. Our services include a free site survey, custom solar system engineering, panel installation, APDCL net metering integration, and dedicated maintenance support. We specialize in installing premium 615 WP Adani TOPCon Solar Panels mounted on hot-dip galvanized (HDGI) structures to ensure maximum durability, wind resistance, and energy generation.
+        </p>
+        <h2>PM Surya Ghar Muft Bijli Yojana Subsidy Assistance</h2>
+        <p>
+          We are an empanelled solar vendor under the government's PM Surya Ghar Muft Bijli Yojana. Our team assists residential homeowners across Guwahati, Jorhat, Dibrugarh, Tezpur, Silchar, and all of Assam in claiming state and central MNRE subsidies of up to ₹1,30,800. We manage 100% of the APDCL net metering and subsidy registration paperwork, making your transition to clean energy simple and hassle-free.
+        </p>
+        <h2>Save Up to 90% on Your Electricity Bills</h2>
+        <p>
+          Switching to solar power allows you to dramatically reduce or eliminate your monthly electricity expenses. Whether you need a 3kW, 5kW, 10kW residential system, or a large-scale commercial solar plant, Solara Energy Solutions delivers premium workmanship, transparent pricing, and industry-leading after-sales support. Power your home or business with clean, sustainable, and reliable solar energy today.
+        </p>
+      </div>
+
+      <!-- Visual Loading Screen -->
+      <div class="initial-loader-container">
+        <div class="initial-loader-spinner"></div>
+        <div class="initial-loader-text">SOLARA ENERGY SOLUTIONS</div>
+      </div>
     </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

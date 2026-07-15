@@ -19,6 +19,8 @@ import { Route as EmiCalculatorRouteImport } from './routes/emi-calculator'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogIndexRouteImport } from './routes/blog.index'
+import { Route as BlogPostIdRouteImport } from './routes/blog.$postId'
 
 const WhyUsRoute = WhyUsRouteImport.update({
   id: '/why-us',
@@ -70,10 +72,20 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => BlogRoute,
+} as any)
+const BlogPostIdRoute = BlogPostIdRouteImport.update({
+  id: '/$postId',
+  path: '/$postId',
+  getParentRoute: () => BlogRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/blog': typeof BlogRoute
+  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
   '/locations': typeof LocationsRoute
@@ -82,10 +94,11 @@ export interface FileRoutesByFullPath {
   '/services': typeof ServicesRoute
   '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
+  '/blog/$postId': typeof BlogPostIdRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
   '/locations': typeof LocationsRoute
@@ -94,11 +107,13 @@ export interface FileRoutesByTo {
   '/services': typeof ServicesRoute
   '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
+  '/blog/$postId': typeof BlogPostIdRoute
+  '/blog': typeof BlogIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/blog': typeof BlogRoute
+  '/blog': typeof BlogRouteWithChildren
   '/contact': typeof ContactRoute
   '/emi-calculator': typeof EmiCalculatorRoute
   '/locations': typeof LocationsRoute
@@ -107,6 +122,8 @@ export interface FileRoutesById {
   '/services': typeof ServicesRoute
   '/solar-company-$cityId': typeof SolarCompanyCityIdRoute
   '/why-us': typeof WhyUsRoute
+  '/blog/$postId': typeof BlogPostIdRoute
+  '/blog/': typeof BlogIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -121,10 +138,11 @@ export interface FileRouteTypes {
     | '/services'
     | '/solar-company-$cityId'
     | '/why-us'
+    | '/blog/$postId'
+    | '/blog/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/blog'
     | '/contact'
     | '/emi-calculator'
     | '/locations'
@@ -133,6 +151,8 @@ export interface FileRouteTypes {
     | '/services'
     | '/solar-company-$cityId'
     | '/why-us'
+    | '/blog/$postId'
+    | '/blog'
   id:
     | '__root__'
     | '/'
@@ -145,11 +165,13 @@ export interface FileRouteTypes {
     | '/services'
     | '/solar-company-$cityId'
     | '/why-us'
+    | '/blog/$postId'
+    | '/blog/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  BlogRoute: typeof BlogRoute
+  BlogRoute: typeof BlogRouteWithChildren
   ContactRoute: typeof ContactRoute
   EmiCalculatorRoute: typeof EmiCalculatorRoute
   LocationsRoute: typeof LocationsRoute
@@ -232,12 +254,38 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/': {
+      id: '/blog/'
+      path: '/'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof BlogRoute
+    }
+    '/blog/$postId': {
+      id: '/blog/$postId'
+      path: '/$postId'
+      fullPath: '/blog/$postId'
+      preLoaderRoute: typeof BlogPostIdRouteImport
+      parentRoute: typeof BlogRoute
+    }
   }
 }
 
+interface BlogRouteChildren {
+  BlogPostIdRoute: typeof BlogPostIdRoute
+  BlogIndexRoute: typeof BlogIndexRoute
+}
+
+const BlogRouteChildren: BlogRouteChildren = {
+  BlogPostIdRoute: BlogPostIdRoute,
+  BlogIndexRoute: BlogIndexRoute,
+}
+
+const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  BlogRoute: BlogRoute,
+  BlogRoute: BlogRouteWithChildren,
   ContactRoute: ContactRoute,
   EmiCalculatorRoute: EmiCalculatorRoute,
   LocationsRoute: LocationsRoute,
