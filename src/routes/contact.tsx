@@ -41,7 +41,7 @@ function ContactPage() {
             <ScrollReveal effect="fade-up" delay={0.15}>
               <h1 className="mt-3 font-display text-5xl font-bold tracking-tight md:text-6xl">
                 Let's talk about{" "}
-                <span className="text-[#EAB308]">your roof.</span>
+                <span className="text-[#5CB85C]">your roof.</span>
               </h1>
             </ScrollReveal>
             <ScrollReveal effect="fade-up" delay={0.25}>
