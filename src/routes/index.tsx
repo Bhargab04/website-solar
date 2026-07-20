@@ -68,8 +68,9 @@ function Index() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Solara Energy Solutions",
-    "url": "https://www.solaraenergysolutions.in/"
+    "name": "SOLARA ENERGY SOLUTIONS",
+    "alternateName": "Solara",
+    "url": "https://www.solaraenergysolutions.in"
   };
 
   return (
