@@ -306,7 +306,8 @@ export const Route = createFileRoute("/solar-company-$cityId")({
         { 
           property: "og:description", 
           content: `Switch to rooftop solar with a certified solar vendor in ${city.name}, Assam. Get up to ₹1,30,800 subsidy under PM Surya Ghar Muft Bijli Yojana. Save 90% on electricity bills.` 
-        }
+        },
+        { property: "og:site_name", content: "Solara Energy Solutions" }
       ]
     };
   },

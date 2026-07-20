@@ -19,6 +19,7 @@ export const Route = createFileRoute("/blog/$postId")({
         },
         { property: "og:title", content: post ? (post.seoTitle || post.title) : "Blog Post" },
         { property: "og:description", content: post ? post.excerpt : "" },
+        { property: "og:site_name", content: "Solara Energy Solutions" },
       ],
     };
   },

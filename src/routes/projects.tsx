@@ -19,6 +19,7 @@ export const Route = createFileRoute("/projects")({
       },
       { property: "og:title", content: "Our Work — Solara Solar" },
       { property: "og:description", content: "Real solar installations delivering real savings across India." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: ProjectsPage,

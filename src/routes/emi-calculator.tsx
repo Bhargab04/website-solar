@@ -15,6 +15,7 @@ export const Route = createFileRoute("/emi-calculator")({
       },
       { property: "og:title", content: "Solar EMI Calculator" },
       { property: "og:description", content: "Estimate your monthly payments for going solar." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: EMICalculatorPage,

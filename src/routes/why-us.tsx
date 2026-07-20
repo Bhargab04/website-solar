@@ -24,6 +24,7 @@ export const Route = createFileRoute("/why-us")({
       },
       { property: "og:title", content: "Our Story" },
       { property: "og:description", content: "Honest solar installations that actually save you money." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: WhyUsPage,

@@ -246,8 +246,15 @@ export function EMICalculator() {
               onChange={setPrincipal} format={formatLakh} editable freeType prefix="₹"
             />
             <SliderInput
-              label="Interest Rate" value={rate} min={1} max={20} step={0.1}
-              onChange={setRate} format={(v) => (v as number).toFixed(1)} unit="% p.a." editable
+              label="Interest Rate" value={rate} min={1} max={20} step={0.01}
+              onChange={setRate}
+              format={(v) => {
+                const rounded = Number(v).toFixed(2);
+                if (rounded.endsWith(".00")) return rounded.slice(0, -3);
+                if (rounded.endsWith("0")) return rounded.slice(0, -1);
+                return rounded;
+              }}
+              unit="% p.a." editable
             />
             <SliderInput
               label="Loan Tenure"

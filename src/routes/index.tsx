@@ -34,6 +34,7 @@ export const Route = createFileRoute("/")({
         property: "og:description",
         content: "Save up to 90% on electricity bills with Assam's leading empanelled solar vendor and rooftop solar partner. PM Surya Ghar empanelled vendor. Turnkey EPC solutions.",
       },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: Index,
@@ -63,11 +64,22 @@ function Index() {
     },
     "description": "Solara Energy Solutions is the leading solar energy company and empanelled rooftop solar installation vendor in Assam and Northeast India, providing turnkey on-grid solar power systems, PM Surya Ghar subsidy help, and APDCL net metering."
   };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Solara Energy Solutions",
+    "url": "https://www.solaraenergysolutions.in/"
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Inject JSON-LD Schema */}
       <script type="application/ld+json">
         {JSON.stringify(businessSchema)}
+      </script>
+      <script type="application/ld+json">
+        {JSON.stringify(websiteSchema)}
       </script>
       <Navbar />
       <main>

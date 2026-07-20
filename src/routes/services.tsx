@@ -42,6 +42,7 @@ export const Route = createFileRoute("/services")({
       },
       { property: "og:title", content: "Our Services — Solara Energy Solutions" },
       { property: "og:description", content: "Advanced, clean, and reliable solar energy systems engineered for efficiency and long-term savings." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: ServicesPage,

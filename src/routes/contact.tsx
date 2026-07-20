@@ -16,6 +16,7 @@ export const Route = createFileRoute("/contact")({
       },
       { property: "og:title", content: "Contact Solara Solar" },
       { property: "og:description", content: "Free quote in under 24 hours. Chat on WhatsApp or fill our form." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: ContactPage,

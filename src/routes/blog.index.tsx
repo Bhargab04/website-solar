@@ -16,6 +16,9 @@ export const Route = createFileRoute("/blog/")({
         content:
           "Read the latest articles, solar installation stories, industry updates, and news from Solara Energy Solutions.",
       },
+      { property: "og:title", content: "Solara Blog — News, Stories & Solar Updates" },
+      { property: "og:description", content: "Read the latest articles, solar installation stories, industry updates, and news from Solara Energy Solutions." },
+      { property: "og:site_name", content: "Solara Energy Solutions" }
     ],
   }),
   component: BlogPageIndex,

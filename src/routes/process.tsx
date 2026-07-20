@@ -17,6 +17,7 @@ export const Route = createFileRoute("/process")({
       },
       { property: "og:title", content: "How It Works — Solara Solar" },
       { property: "og:description", content: "From consultation to activation in 4 steps." },
+      { property: "og:site_name", content: "Solara Energy Solutions" },
     ],
   }),
   component: ProcessPage,

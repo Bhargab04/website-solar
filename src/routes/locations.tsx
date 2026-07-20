@@ -36,7 +36,10 @@ export const Route = createFileRoute("/locations")({
       {
         name: "keywords",
         content: "solar vendor in assam, empanelled solar vendor assam, solar company guwahati, solar company jorhat, solar company dibrugarh, solar panels assam, pm surya ghar vendor assam",
-      }
+      },
+      { property: "og:title", content: "Locations We Serve in Assam | Solara Energy Solutions" },
+      { property: "og:description", content: "Solara Energy Solutions is a certified solar vendor in Assam serving homes, businesses, and tea estates." },
+      { property: "og:site_name", content: "Solara Energy Solutions" }
     ],
   }),
   component: LocationsPage,
