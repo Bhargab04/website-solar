@@ -28,7 +28,7 @@ export const posts: Post[] = [
     date: "July 13, 2026",
     readTime: "7 min read",
     author: "Solara Editorial Team",
-    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1783920848/WhatsApp_Image_2026-07-11_at_10.47.51_AM_1_fpral5.jpg",
+    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1784619563/WhatsApp_Image_2026-07-20_at_3.04.21_AM_yvoxrf.jpg",
     seoTitle: "Best Solar Company in Assam | Complete Solar Buyer’s Guide | Solara Energy Solutions",
     content: `
 ## Why Choosing the Right Solar EPC Company Matters
