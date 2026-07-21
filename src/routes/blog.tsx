@@ -21,6 +21,822 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    id: "pm-surya-ghar-assam-application-process-guide",
+    category: "Subsidies",
+    title: "PM Surya Ghar Muft Bijli Yojana in Assam – Complete Step-by-Step Application Process",
+    excerpt: "Learn the complete PM Surya Ghar Muft Bijli Yojana application process in Assam, including registration, vendor selection, rooftop survey, APDCL approvals, installation, net metering, and commissioning.",
+    date: "July 21, 2026",
+    readTime: "8 min read",
+    author: "Solara Editorial Team",
+    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1784622567/ChatGPT_Image_Jul_21_2026_01_58_49_PM_vkh00a.png",
+    seoTitle: "How to Apply for PM Surya Ghar Muft Bijli Yojana in Assam | Step-by-Step Guide",
+    content: `
+## PM Surya Ghar Muft Bijli Yojana – Complete Step-by-Step Process
+
+Many homeowners are interested in rooftop solar but often feel that the application process is complicated. In reality, once you understand the steps involved and work with an experienced installer, the process becomes much more manageable.
+
+This guide explains the typical workflow for a residential rooftop solar project under the PM Surya Ghar Muft Bijli Yojana. While exact procedures may change over time, the overall journey generally follows the sequence outlined below.
+
+## Step 1 – Understand Your Electricity Consumption
+
+Before applying, it is important to understand how much electricity your home uses. Your recent electricity bill provides valuable information such as:
+
+- Consumer number
+- Monthly electricity consumption
+- Consumer category
+- Connected load
+- Billing history
+
+This information helps determine the most appropriate solar system size for your household.
+
+## Step 2 – Assess Your Rooftop
+
+Not every roof is the same. A professional site assessment helps determine whether your rooftop is suitable for solar. During the survey, engineers typically evaluate:
+
+- Roof dimensions
+- Roof type (RCC, metal sheet, etc.)
+- Structural condition
+- Direction and tilt
+- Potential shading
+- Cable routing
+- Space for inverter installation
+- Earthing requirements
+- Safety considerations
+
+A proper survey helps optimize both energy generation and installation quality.
+
+## Step 3 – Register Through the Official Process
+
+Eligible residential consumers generally begin by registering through the official PM Surya Ghar Muft Bijli Yojana platform and following the prescribed application procedure. The process may require details such as:
+
+- State
+- Electricity distribution company
+- Consumer number
+- Contact information
+- Residential details
+
+Always use the official government portal and ensure that the information entered matches your electricity connection records.
+
+## Step 4 – Vendor Selection
+
+One of the most important decisions is choosing the company that will design and install your rooftop solar system. When selecting a vendor, consider factors such as:
+
+- Engineering expertise
+- Installation quality
+- Experience with rooftop solar
+- Equipment options
+- Warranty support
+- Customer service
+- Post-installation maintenance
+
+Choosing a qualified and experienced EPC company helps reduce the likelihood of installation issues and improves long-term system performance.
+
+## Step 5 – Technical Feasibility
+
+Before installation, the proposed system generally undergoes a technical assessment to ensure that it is suitable for the property and compatible with the applicable utility requirements. This assessment may consider:
+
+- Roof suitability
+- Proposed system capacity
+- Existing electrical infrastructure
+- Grid connectivity
+- Safety requirements
+
+The exact process depends on the applicable regulations and utility procedures.
+
+## Step 6 – Detailed Engineering & System Design
+
+After the initial approvals and site survey, engineers prepare a customized design for your rooftop solar system.
+
+### Solar Panel Layout
+
+The layout is designed to maximize sunlight exposure while maintaining safe spacing and accessibility.
+
+### Structural Design
+
+The mounting structure is selected based on:
+
+- Roof type
+- Wind considerations
+- Structural characteristics
+- Long-term durability
+
+### Electrical Design
+
+Engineers determine:
+
+- Cable routing
+- Inverter location
+- Protection devices
+- Earthing arrangements
+- AC and DC distribution
+
+A well-designed system contributes to efficient operation and easier maintenance.
+
+## Step 7 – Procurement of Equipment
+
+Once the design is finalized, the required components are arranged. A typical residential rooftop solar system includes:
+
+### Solar Panels
+
+Examples of well-known manufacturers include:
+
+- Adani Solar
+- Tata Power Solar
+- Waaree
+- Vikram Solar
+- RenewSys
+- Saatvik
+- LONGi
+- JinkoSolar
+- JA Solar
+- Trina Solar
+- Canadian Solar
+- Astronergy
+
+### Solar Inverters
+
+Popular inverter manufacturers include:
+
+- Sungrow
+- Growatt
+- Solis
+- GoodWe
+- Huawei
+- Delta
+- SMA
+- Fronius
+
+The final choice depends on project requirements, customer preferences, warranty, and availability.
+
+## Step 8 – Professional Installation
+
+The installation process generally includes:
+
+### Mounting Structure Installation
+
+The support structure is securely installed according to the engineering design.
+
+### Solar Panel Installation
+
+Panels are mounted with proper spacing to facilitate ventilation and maintenance.
+
+### Electrical Wiring
+
+High-quality DC and AC cables are routed according to the approved design while following relevant safety practices.
+
+### Inverter Installation
+
+The inverter is installed in a location that provides adequate ventilation, accessibility, and protection.
+
+### Earthing & Protection
+
+Appropriate earthing and electrical protection systems are incorporated to enhance safety and system reliability.
+
+## Step 9 – Testing & Quality Inspection
+
+Before the system is commissioned, multiple checks are performed. These may include:
+
+- Mechanical inspection
+- Electrical testing
+- Cable continuity checks
+- Polarity verification
+- Inverter configuration
+- Protection system checks
+- Performance testing
+
+Thorough testing helps ensure that the system is ready for safe operation.
+
+## Step 10 – Net Metering Process
+
+For eligible on-grid rooftop solar systems, net metering plays a key role in enabling two-way electricity flow between the consumer and the grid. A net meter records:
+
+- Electricity imported from the grid
+- Electricity exported to the grid
+
+The exact implementation depends on the prevailing regulations and utility procedures.
+
+## Step 11 – Commissioning
+
+Once installation, testing, and the applicable utility-related procedures are completed, the system is commissioned. At this stage:
+
+- The solar system begins generating electricity.
+- The inverter starts monitoring performance.
+- The customer receives guidance on system operation.
+- Digital monitoring can be configured where supported.
+
+## Monitoring Your Solar System
+
+Many modern inverters provide mobile applications or web portals that allow users to monitor their system. Common features include:
+
+- Daily energy generation
+- Monthly generation
+- Annual generation
+- Performance trends
+- System alerts (where supported)
+- Historical data
+
+Regular monitoring helps homeowners understand system performance and identify potential issues early.
+
+## Common Mistakes During the Application Process
+
+### Providing Incorrect Consumer Details
+
+Always ensure that the information entered matches your electricity connection records.
+
+### Skipping the Site Survey
+
+A proper engineering assessment helps avoid issues related to shading, roof suitability, and system sizing.
+
+### Choosing Equipment Based Only on Price
+
+A balanced evaluation should include quality, warranty, efficiency, service support, and long-term reliability.
+
+### Ignoring Future Electricity Needs
+
+If you expect higher electricity consumption in the coming years—for example, due to additional appliances or an electric vehicle—discuss this with your installer during the planning stage.
+
+## How SOLARA ENERGY SOLUTIONS Helps
+
+Our team provides end-to-end support throughout the rooftop solar journey. Our services include:
+
+- Initial consultation
+- Site survey
+- Customized engineering
+- Equipment selection
+- Professional installation
+- Assistance with applicable rooftop solar procedures
+- Testing and commissioning
+- After-sales support
+- Preventive maintenance
+
+We aim to make the process as smooth and transparent as possible for homeowners across Assam.
+
+## Frequently Asked Questions
+
+### How long does the complete process take?
+
+The timeline varies depending on factors such as documentation, site readiness, equipment availability, utility procedures, and project complexity.
+
+### Can I choose my preferred solar panel brand?
+
+Subject to availability and project requirements, homeowners can discuss equipment preferences with their EPC provider.
+
+### Is a site survey compulsory?
+
+A professional site survey is strongly recommended to assess roof suitability, optimize system design, and ensure a safe installation.
+
+### Will I receive training after installation?
+
+Most professional installers provide guidance on system operation, monitoring, and routine maintenance after commissioning.
+
+### Can I monitor my solar system from my phone?
+
+Many modern inverters support mobile applications that allow homeowners to track generation and system performance remotely.
+`
+  },
+  {
+    id: "pm-surya-ghar-assam-eligibility-documents-subsidy-guide",
+    category: "Subsidies",
+    title: "PM Surya Ghar Muft Bijli Yojana in Assam – Eligibility, Documents Required & Subsidy Process (Part 2)",
+    excerpt: "Learn who is eligible for PM Surya Ghar Muft Bijli Yojana in Assam, documents required, rooftop requirements, subsidy process, common mistakes and expert tips before applying.",
+    date: "July 21, 2026",
+    readTime: "7 min read",
+    author: "Solara Editorial Team",
+    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1784620334/WhatsApp_Image_2026-07-20_at_3.09.16_AM_vcbj18.jpg",
+    seoTitle: "PM Surya Ghar Assam Eligibility, Documents & Subsidy Guide | 2026",
+    content: `
+## Who Can Apply for PM Surya Ghar Muft Bijli Yojana?
+
+One of the most common questions we receive at **SOLARA ENERGY SOLUTIONS** is:
+
+**“Am I eligible for PM Surya Ghar Muft Bijli Yojana?”**
+
+The answer depends on several factors, including your electricity connection, property type, rooftop suitability, and the latest government guidelines.
+
+This guide explains the general eligibility criteria. Since the scheme may be updated from time to time, applicants should always refer to the latest official instructions before applying.
+
+## General Eligibility Requirements
+
+The PM Surya Ghar Muft Bijli Yojana is primarily intended for eligible residential consumers who wish to install a grid-connected rooftop solar system.
+
+While specific conditions may change, applicants generally need to satisfy requirements related to:
+
+- Residential property ownership or authorization
+- An active residential electricity connection
+- A suitable rooftop for solar installation
+- Compliance with applicable utility and scheme guidelines
+
+Commercial and industrial consumers are generally covered under different regulatory frameworks rather than this residential scheme.
+
+## Is My House Suitable for Rooftop Solar?
+
+Not every roof is identical, but many homes across Assam can accommodate rooftop solar. During a professional site survey, engineers assess several factors.
+
+### 1. Roof Area
+
+The available roof space determines the maximum practical size of the solar system.
+
+Approximate space requirements:
+
+- **2kW System:** 140–180 sq. ft.
+- **3kW System:** 200–250 sq. ft.
+- **5kW System:** 320–400 sq. ft.
+- **10kW System:** 700–900 sq. ft.
+
+These figures are indicative and vary depending on panel dimensions and layout.
+
+### 2. Roof Direction
+
+In India, rooftops with good sunlight exposure throughout the day generally perform best. Engineers evaluate:
+
+- Roof orientation
+- Tilt
+- Seasonal sunlight exposure
+- Potential shading
+
+A detailed assessment helps maximize long-term energy generation.
+
+### 3. Structural Strength
+
+Solar panels are designed for long-term installation. Before installation, the roof should be evaluated to ensure it can safely support the mounting structure and equipment.
+
+### 4. Shadow Analysis
+
+Trees, neighboring buildings, water tanks, chimneys, antennas, and other obstructions can reduce solar generation. Professional installers perform a shadow analysis before finalizing the design.
+
+## Documents Commonly Required
+
+Documentation requirements may vary depending on the latest scheme guidelines and utility procedures. Applicants are commonly asked to provide:
+
+- Identity proof
+- Address proof
+- Recent electricity bill
+- Consumer number
+- Property-related information
+- Passport-size photograph
+- Bank account details (where applicable)
+- Other documents requested by the authorities
+
+Always refer to the latest official checklist before submitting an application.
+
+## Importance of the Electricity Bill
+
+One of the most important documents during the planning stage is your recent electricity bill. It helps engineers understand:
+
+- Monthly electricity consumption
+- Sanctioned load
+- Consumer category
+- Connection details
+- Historical energy usage
+
+Using this information, a system can be sized more accurately.
+
+## Choosing the Right System Capacity
+
+Many homeowners assume that installing the largest possible system is always the best choice. In reality, the recommended capacity should be based on:
+
+- Electricity consumption
+- Roof space
+- Future electricity needs
+- Budget
+- Applicable regulations
+
+A professional assessment helps determine the most suitable system for your home.
+
+## Understanding Government Subsidies
+
+One of the major attractions of the PM Surya Ghar Muft Bijli Yojana is the availability of financial assistance for eligible residential rooftop solar installations. However, several important points should be kept in mind:
+
+- Subsidies are governed by government guidelines.
+- Eligibility conditions apply.
+- Benefit amounts may change over time.
+- Approval is subject to compliance with applicable procedures.
+- Subsidy claims generally follow the prescribed process.
+
+For the latest information, applicants should consult the official scheme portal.
+
+## Common Reasons Why Applications Get Delayed
+
+Many application delays can be avoided with proper preparation. Some common reasons include:
+
+### Incorrect Documents
+
+Incomplete or inaccurate documentation can slow down processing.
+
+### Unsuitable Rooftop
+
+Insufficient roof space or structural issues may require modifications before installation.
+
+### Mismatched Consumer Information
+
+Details such as the consumer name, electricity connection information, and supporting documents should be consistent.
+
+### Incomplete Application
+
+Submitting an application without all required information may result in delays or requests for clarification.
+
+### Utility-Related Procedures
+
+Certain stages involve review by the relevant electricity distribution utility, and processing times may vary.
+
+## Common Mistakes Homeowners Should Avoid
+
+### Choosing Only the Cheapest Quotation
+
+The lowest upfront price does not always represent the best long-term value. Consider:
+
+- Equipment quality
+- Engineering
+- Installation standards
+- Warranty
+- Service support
+
+### Ignoring Roof Condition
+
+A structurally sound roof is essential for a safe and durable installation. If repairs are needed, they are often best completed before installing solar panels.
+
+### Purchasing Without a Site Survey
+
+Every roof is different. A professional survey helps determine:
+
+- Optimal system size
+- Panel layout
+- Expected performance
+- Installation feasibility
+
+### Not Planning for Future Electricity Usage
+
+If you expect your electricity consumption to increase—for example, by adding air conditioners or an electric vehicle—it may be beneficial to discuss future requirements during the planning stage.
+
+## Preparing Your Home Before Installation
+
+Homeowners can make the installation process smoother by:
+
+- Clearing unnecessary rooftop items
+- Trimming overhanging branches where appropriate
+- Ensuring safe rooftop access
+- Sharing recent electricity bills
+- Discussing future electricity needs
+- Informing the installer about any planned renovations
+
+Good preparation can help streamline project execution.
+
+## Why a Professional Site Survey Matters
+
+At **SOLARA ENERGY SOLUTIONS**, every residential project begins with a comprehensive site survey. Our engineers evaluate:
+
+- Roof dimensions
+- Roof type
+- Structural condition
+- Shadow analysis
+- Cable routing
+- Earthing requirements
+- Safety considerations
+- Mounting options
+- Electricity consumption patterns
+
+This detailed assessment enables us to recommend a system tailored to your specific needs.
+
+## Why Homeowners Across Assam Choose SOLARA ENERGY SOLUTIONS
+
+We provide complete rooftop solar solutions across Assam, including:
+
+- Residential rooftop solar
+- Free site survey
+- Engineering and design
+- High-quality solar panels
+- Premium inverter solutions
+- Professional installation
+- Guidance on applicable utility and rooftop solar procedures
+- Testing and commissioning
+- Preventive maintenance
+- After-sales support
+
+Our team serves customers throughout Assam, including:
+
+- Guwahati
+- Jorhat
+- Dibrugarh
+- Tinsukia
+- Nagaon
+- Tezpur
+- Golaghat
+- Sivasagar
+- Silchar
+- Karimganj
+- Hailakandi
+- Barpeta
+- Nalbari
+- Kokrajhar
+- Bongaigaon
+- Lakhimpur
+- Dhemaji
+- Morigaon
+- Goalpara
+- Mangaldoi
+- Darrang
+- Biswanath
+- Charaideo
+- Majuli
+- Kamrup
+- Kamrup Metropolitan
+- Karbi Anglong
+- Dima Hasao
+- Baksa
+- Chirang
+- Udalguri
+- South Salmara-Mankachar
+- West Karbi Anglong
+
+If your location is not listed, feel free to contact us to discuss your project.
+
+## Frequently Asked Questions
+
+### Can I apply if my house is under construction?
+
+A rooftop solar installation generally requires a completed roof and an eligible electricity connection. The exact timing should be discussed with your installer.
+
+### Can I install a larger system than my current electricity usage?
+
+System sizing should comply with applicable regulations and be based on your electricity needs. A professional assessment is recommended.
+
+### Do I need to visit multiple offices?
+
+The exact process depends on the prevailing guidelines and utility procedures. An experienced EPC company can help guide you through the required steps.
+
+### Can rooftop solar be installed on RCC and metal roofs?
+
+Yes. Rooftop solar can be installed on various roof types using appropriate mounting systems, subject to a structural assessment.
+
+### Does roof direction matter?
+
+Yes. Roof orientation, tilt, and shading all influence energy generation, which is why a site survey is an essential part of system planning.
+`
+  },
+  {
+    id: "pm-surya-ghar-muft-bijli-yojana-assam-guide",
+    category: "Subsidies",
+    title: "PM Surya Ghar Muft Bijli Yojana in Assam | Complete Guide 2026",
+    excerpt: "Learn everything about PM Surya Ghar Muft Bijli Yojana in Assam, eligibility, benefits, rooftop solar, subsidy process, APDCL, net metering and how homeowners can switch to solar.",
+    date: "July 21, 2026",
+    readTime: "6 min read",
+    author: "Solara Editorial Team",
+    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1784619563/WhatsApp_Image_2026-07-20_at_3.04.21_AM_yvoxrf.jpg",
+    seoTitle: "PM Surya Ghar Muft Bijli Yojana Assam | Complete Guide 2026",
+    content: `
+## PM Surya Ghar Muft Bijli Yojana in Assam – The Complete Guide
+
+Electricity bills are one of the biggest recurring household expenses. As electricity consumption continues to increase due to air conditioners, refrigerators, washing machines, water pumps, televisions, electric vehicles, and other appliances, many families across Assam are looking for a long-term solution to reduce their monthly electricity costs.
+
+To encourage the adoption of clean energy, the Government of India launched the PM Surya Ghar Muft Bijli Yojana, a nationwide rooftop solar initiative aimed at helping eligible households install rooftop solar systems. For homeowners in Assam, this scheme presents an opportunity to generate electricity from sunlight while reducing dependence on conventional grid power. Understanding how the scheme works, who is eligible, and what the installation process involves can help you make an informed decision.
+
+At **SOLARA ENERGY SOLUTIONS**, headquartered at AAC Commercial Complex, Athgaon, Guwahati, we assist homeowners across Assam with rooftop solar consultations, engineering, installation, and guidance throughout the applicable project processes.
+
+## What is PM Surya Ghar Muft Bijli Yojana?
+
+The PM Surya Ghar Muft Bijli Yojana is a Government of India initiative that promotes the installation of grid-connected rooftop solar systems for eligible residential consumers. The objectives of the scheme include:
+
+- Encouraging renewable energy adoption
+- Reducing household electricity expenses
+- Increasing rooftop solar capacity
+- Supporting cleaner energy generation
+- Strengthening India’s energy security
+
+Eligible residential consumers can install rooftop solar systems through approved processes and, subject to the prevailing guidelines, may receive financial assistance under the scheme. Since government policies may be revised from time to time, applicants should always refer to the official portal and the latest notifications for current eligibility, documentation, and benefit details.
+
+## Why is the Scheme Important for Assam?
+
+Assam has witnessed rapid growth in electricity demand over the past decade. Households now commonly use:
+
+- Air Conditioners
+- Refrigerators
+- Washing Machines
+- Water Pumps
+- Geysers
+- Induction Cooktops
+- Electric Rice Cookers
+- Water Purifiers
+- Smart TVs
+- Desktop Computers
+- Laptops
+- Home Offices
+- CCTV Systems
+- Wi-Fi Routers
+- Electric Vehicle Chargers
+
+As energy consumption increases, electricity bills may also rise depending on usage and tariffs. A rooftop solar system allows homeowners to generate a portion of their own electricity during daylight hours, helping offset grid consumption.
+
+## Why Are More Homeowners in Assam Choosing Rooftop Solar?
+
+Across cities, towns, and villages in Assam, rooftop solar adoption has been steadily increasing. Some of the reasons include:
+
+### Lower Electricity Bills
+
+Generating electricity from your rooftop can reduce the amount of electricity purchased from the grid, depending on your consumption and system size.
+
+### Long-Term Investment
+
+A professionally installed rooftop solar system is designed to operate for many years with routine maintenance.
+
+### Renewable Energy
+
+Solar power is a clean and renewable source of energy that helps reduce reliance on fossil fuels.
+
+### Low Maintenance
+
+Modern rooftop solar systems generally require periodic cleaning and routine inspections rather than extensive maintenance.
+
+### Government Support
+
+Government initiatives such as PM Surya Ghar have encouraged greater awareness and adoption of residential rooftop solar.
+
+## Is Assam Suitable for Rooftop Solar?
+
+Yes. Many people assume that Assam’s rainfall makes rooftop solar ineffective. In reality, modern photovoltaic panels generate electricity from sunlight—not heat. Although electricity generation varies with weather conditions and seasons, rooftop solar systems continue to produce power under diffused sunlight during cloudy conditions.
+
+Today’s advanced technologies such as:
+
+- N-Type TOPCon
+- Mono PERC
+- Bifacial Solar Panels
+
+are designed to perform efficiently in a variety of climatic conditions. This makes rooftop solar a practical option for many parts of Assam.
+
+## Who Can Benefit?
+
+The PM Surya Ghar Muft Bijli Yojana is intended for eligible residential consumers. It is particularly relevant for:
+
+- Independent houses
+- Residential bungalows
+- Duplex homes
+- Villas
+- Individual residential buildings
+
+Eligibility depends on the prevailing scheme guidelines, electricity connection details, and other requirements specified by the authorities. Commercial and industrial projects generally follow different policy frameworks.
+
+## What Appliances Can a Rooftop Solar System Support?
+
+The capacity of the solar system determines how much electricity it can generate over time. Depending on system size and usage patterns, solar-generated electricity may help power appliances such as:
+
+- LED lights
+- Ceiling fans
+- Television
+- Refrigerator
+- Wi-Fi router
+- Laptop
+- Mobile charging
+- Washing machine
+- Water pump
+- Kitchen appliances
+- Air conditioner (depending on system capacity and usage)
+
+Actual performance depends on your energy consumption profile and the system installed.
+
+## Common Residential Solar System Sizes
+
+The most frequently installed residential rooftop solar systems include:
+
+### 1kW Solar System
+
+Suitable for:
+
+- Small homes
+- Low electricity usage
+
+### 2kW Solar System
+
+Suitable for:
+
+- Small families
+- Apartments
+- Basic household electricity needs
+
+### 3kW Solar System
+
+One of the most popular residential system sizes in Assam.
+
+- Average-sized homes
+- Families with moderate electricity consumption
+
+### 5kW Solar System
+
+Ideal for:
+
+- Larger homes
+- Higher electricity consumption
+- Homes using multiple air conditioners
+
+### 10kW Solar System
+
+Suitable for:
+
+- Large residences
+- Villas
+- Buildings with significant daytime electricity demand
+
+## Benefits Beyond Monthly Savings
+
+Installing rooftop solar offers advantages beyond reducing electricity bills. These may include:
+
+- Better utilization of rooftop space
+- Increased energy independence
+- Reduced environmental impact
+- Long operational lifespan
+- Lower dependence on conventional energy sources
+
+The overall benefits depend on system design, electricity consumption, maintenance, and applicable policies.
+
+## Why Professional Installation Is Important
+
+Even high-quality solar equipment requires proper engineering and installation. A professional rooftop solar project includes:
+
+- Roof assessment
+- Structural evaluation
+- Electrical design
+- Proper mounting
+- Safe wiring
+- Earthing
+- Protection systems
+- Testing
+- Commissioning
+
+Choosing an experienced installer helps ensure that the system operates safely and efficiently over the long term.
+
+## Why Choose SOLARA ENERGY SOLUTIONS?
+
+At **SOLARA ENERGY SOLUTIONS**, we specialize in providing complete rooftop solar solutions across Assam. Our services include:
+
+- Free consultation
+- Site survey
+- Residential rooftop solar
+- Engineering & design
+- Professional installation
+- High-quality solar panels
+- Premium inverter solutions
+- Assistance with applicable rooftop solar procedures
+- Net metering guidance
+- Preventive maintenance
+- After-sales support
+
+We serve homeowners throughout Assam, including:
+
+- Guwahati
+- Jorhat
+- Dibrugarh
+- Tinsukia
+- Nagaon
+- Golaghat
+- Sivasagar
+- Tezpur
+- Silchar
+- Karimganj
+- Hailakandi
+- Barpeta
+- Nalbari
+- Kokrajhar
+- Bongaigaon
+- Lakhimpur
+- Dhemaji
+- Morigaon
+- Goalpara
+- Mangaldoi
+- Darrang
+- Charaideo
+- Biswanath
+- Majuli
+- Dhubri
+- Kamrup
+- Kamrup Metropolitan
+- Karbi Anglong
+- Dima Hasao
+- Chirang
+- Baksa
+- Udalguri
+- South Salmara-Mankachar
+- West Karbi Anglong
+
+If your location is not listed, feel free to contact us to discuss your project. We evaluate projects throughout Assam based on feasibility and service availability.
+
+## Frequently Asked Questions
+
+### Is PM Surya Ghar available in Assam?
+
+The PM Surya Ghar Muft Bijli Yojana is a nationwide Government of India scheme, and eligible residential consumers in Assam can apply in accordance with the applicable guidelines and utility processes.
+
+### Is the scheme only for homes?
+
+The scheme primarily targets eligible residential rooftop solar installations. Commercial and industrial consumers are generally covered under different policies.
+
+### Can rooftop solar work during Assam’s rainy season?
+
+Yes. Solar panels continue to generate electricity under cloudy conditions, although output is generally lower than on bright sunny days.
+
+### Is rooftop solar safe?
+
+When installed by qualified professionals using appropriate engineering practices and quality equipment, rooftop solar systems are designed to operate safely and reliably.
+`
+  },
+  {
     id: "how-to-choose-best-solar-company-assam-buyers-guide",
     category: "Guides",
     title: "How to Choose the Best Solar Company in Assam | Complete Buyer’s Guide & Frequently Asked Questions",
@@ -28,7 +844,7 @@ export const posts: Post[] = [
     date: "July 13, 2026",
     readTime: "7 min read",
     author: "Solara Editorial Team",
-    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1784619563/WhatsApp_Image_2026-07-20_at_3.04.21_AM_yvoxrf.jpg",
+    image: "https://res.cloudinary.com/dwjneqfb9/image/upload/v1783920848/WhatsApp_Image_2026-07-11_at_10.47.51_AM_1_fpral5.jpg",
     seoTitle: "Best Solar Company in Assam | Complete Solar Buyer’s Guide | Solara Energy Solutions",
     content: `
 ## Why Choosing the Right Solar EPC Company Matters

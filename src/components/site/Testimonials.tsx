@@ -67,9 +67,9 @@ export function Testimonials() {
             <span className="text-[#5CB85C] text-xs font-bold uppercase tracking-[0.22em] mb-4 block">
               Real customers, real results
             </span>
-            <h2 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl">
+            <h1 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl">
               Don't just take our word for it.
-            </h2>
+            </h1>
           </ScrollReveal>
           <ScrollReveal effect="fade-up">
             <div className="flex items-center gap-3 rounded-2xl border border-[#D6E4F0] bg-white px-5 py-3 shadow-sm">

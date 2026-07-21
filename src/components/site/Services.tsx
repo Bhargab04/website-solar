@@ -39,9 +39,9 @@ export function Services() {
               <Zap className="w-3 h-3" />
               What we do
             </div>
-            <h2 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl lg:text-6xl leading-[1.05]">
+            <h1 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl lg:text-6xl leading-[1.05]">
               Everything your energy transition needs.
-            </h2>
+            </h1>
           </ScrollReveal>
           <ScrollReveal effect="fade-up">
             <p className="text-lg text-slate-500 leading-relaxed lg:ml-8 lg:border-l-2 lg:border-[#5BB5DC]/40 lg:pl-8">

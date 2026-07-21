@@ -21,9 +21,9 @@ export function Process() {
         {/* Header */}
         <ScrollReveal effect="fade-up" className="max-w-2xl mb-20">
           <span className="text-[#5CB85C] text-xs font-bold uppercase tracking-[0.22em] mb-4 block">How it works</span>
-          <h2 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl">
+          <h1 className="font-display text-4xl font-bold tracking-tight text-[#1B4F8A] md:text-5xl">
             Simple. Transparent. Done right.
-          </h2>
+          </h1>
         </ScrollReveal>
 
         {/* Steps — horizontal on desktop */}

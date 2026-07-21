@@ -126,9 +126,9 @@ export function SuryaGhar() {
             </span>
           </ScrollReveal>
           <ScrollReveal effect="fade-up" delay={0.1}>
-            <h2 className="mt-4 font-display text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+            <h1 className="mt-4 font-display text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
               Claim Up to <span className="text-[#5CB85C]">₹1,30,800</span> in Solar Subsidies
-            </h2>
+            </h1>
           </ScrollReveal>
           <ScrollReveal effect="fade-up" delay={0.15}>
             <p className="mt-6 text-lg text-slate-600 font-medium">

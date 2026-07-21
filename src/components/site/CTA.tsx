@@ -24,7 +24,7 @@ export function CTA() {
             >
               Stop waiting
             </motion.p>
-            <motion.h2
+            <motion.h1
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -36,7 +36,7 @@ export function CTA() {
                 <span className="relative z-10">your roof.</span>
                 <span className="absolute bottom-0.5 left-0 right-0 h-[5px] bg-[#5CB85C] rounded-full z-0" />
               </span>
-            </motion.h2>
+            </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
