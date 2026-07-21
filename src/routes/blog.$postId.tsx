@@ -255,12 +255,12 @@ function BlogPostPage() {
                         
                       return (
                         <div key={idx}>
-                          <h2
+                          <h1
                             id={id}
                             className="font-display text-xl sm:text-2xl font-bold text-[#1B4F8A] mt-10 mb-5 border-b border-slate-100 pb-2.5 scroll-mt-28"
                           >
                             {parseMarkdownInline(text)}
-                          </h2>
+                          </h1>
                           {lines.slice(1).map((line, lIdx) => {
                             const lineTrimmed = line.trim();
                             if (!lineTrimmed) return null;
