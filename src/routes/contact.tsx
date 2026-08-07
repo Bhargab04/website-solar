@@ -65,21 +65,20 @@ function ContactPage() {
 
             <ScrollReveal effect="fade-up" delay={0.1}>
               <div className="mt-8 border-[3px] border-[#1B4F8A] rounded-2xl p-6 lg:p-10 shadow-lg bg-card">
-                <div className="relative h-[500px] w-full overflow-hidden rounded-xl bg-card pointer-events-none sm:pointer-events-auto">
-                  {/* Hide the default Google Maps white place card */}
+                <div className="relative h-[500px] w-full overflow-hidden rounded-xl bg-card">
                   <iframe
-                    className="absolute left-0 w-full"
-                    style={{ top: "-150px", height: "calc(100% + 150px)", border: 0 }}
+                    className="w-full h-full rounded-xl"
+                    style={{ border: 0 }}
                     loading="lazy"
                     allowFullScreen
                     referrerPolicy="no-referrer-when-downgrade"
-                    src="https://maps.google.com/maps?q=AAC%20Commercial%20Complex,%20Sati%20Joymati%20Rd,%20Athgaon,%20Guwahati,%20Assam%20781001,%20India&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                    title="Solara Energy Office Location"
+                    src="https://maps.google.com/maps?cid=6954964295541494935&output=embed"
+                    title="Solara Energy Solutions Office Location"
                   ></iframe>
 
                   {/* Open in Maps Overlay Button */}
                   <a
-                    href="https://maps.google.com/maps?q=AAC%20Commercial%20Complex,%20Sati%20Joymati%20Rd,%20Athgaon,%20Guwahati,%20Assam%20781001,%20India"
+                    href="https://maps.google.com/?cid=6954964295541494935"
                     target="_blank"
                     rel="noreferrer"
                     className="absolute top-4 left-4 z-10 flex items-center gap-1.5 rounded bg-white px-3 py-2 text-sm font-medium text-[#1a73e8] shadow-[0_1px_4px_rgba(0,0,0,0.3)] hover:bg-gray-50 transition-colors pointer-events-auto"

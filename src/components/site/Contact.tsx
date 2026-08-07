@@ -57,7 +57,7 @@ export function Contact() {
               </div>
               <div className="flex items-center mt-2">
                 <a 
-                  href="https://maps.google.com/maps?q=AAC%20Commercial%20Complex,%20Sati%20Joymati%20Rd,%20Athgaon,%20Guwahati,%20Assam%20781001,%20India" 
+                  href="https://maps.google.com/?cid=6954964295541494935" 
                   target="_blank" 
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-[#1B4F8A]/20 bg-[#1B4F8A]/5 px-4 py-2 text-sm font-semibold text-[#1B4F8A] hover:bg-[#1B4F8A]/10 transition-colors"
