@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { ArrowRight, Star, Award, Zap } from "lucide-react";
 
@@ -102,13 +103,13 @@ export function Hero() {
             </p>
 
             <div className="flex flex-wrap items-center gap-6">
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 className="group inline-flex items-center gap-2 bg-[#5CB85C] text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-[#5CB85C]/35 hover:-translate-y-1 hover:bg-[#4aa54a] hover:shadow-xl hover:shadow-[#5CB85C]/50 active:translate-y-0 active:scale-95 transition-all duration-300 text-base select-none"
               >
                 Get a free quote
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </a>
+              </Link>
 
               <a
                 href="#services"

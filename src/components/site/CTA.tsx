@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/9181016555?text=Hi%20Solara%2C%20I%27d%20like%20a%20free%20solar%20quote.";
@@ -56,13 +57,13 @@ export function CTA() {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="flex flex-col gap-3 lg:pl-8"
           >
-            <a
-              href="#contact"
+            <Link
+              to="/contact"
               className="group flex items-center justify-between gap-3 rounded-2xl bg-[#5CB85C] px-7 py-5 text-white font-semibold text-base shadow-lg transition-all hover:bg-[#4aa54a] hover:-translate-y-0.5"
             >
               <span>Check your savings</span>
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
             <a
               href={WHATSAPP_URL}
               target="_blank" rel="noreferrer"

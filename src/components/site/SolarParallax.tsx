@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "@tanstack/react-router";
 import { Phone } from "lucide-react";
 
 export function SolarParallax() {
@@ -32,12 +33,12 @@ export function SolarParallax() {
         </h2>
 
         <div className="flex flex-wrap items-center gap-6">
-          <a
-            href="#contact"
+          <Link
+            to="/contact"
             className="inline-flex items-center justify-center bg-[#FF5A36] hover:bg-[#e04f2f] text-white font-bold px-6 py-3 rounded-full transition-all hover:-translate-y-0.5 shadow-md shadow-[#FF5A36]/20 text-sm select-none"
           >
             Contact Us
-          </a>
+          </Link>
           <a
             href="tel:+919181016555"
             className="group inline-flex items-center gap-2 text-white hover:text-[#FF5A36] font-semibold text-sm transition-colors"

@@ -463,12 +463,12 @@ function ServicesPage() {
                         </div>
 
                         <div className="flex items-center gap-5">
-                          <a 
-                            href="#contact" 
-                            className="inline-flex items-center gap-2 bg-[#1B4F8A] text-white hover:bg-[#2E7EC0] font-bold px-6 py-3.5 rounded-full transition-all duration-300 text-sm shadow-md"
+                          <Link 
+                            to="/contact" 
+                            className="inline-flex items-center gap-2 bg-[#1B4F8A] text-white hover:bg-[#2E7EC0] font-bold px-6 py-3.5 rounded-full transition-all duration-300 text-sm shadow-md hover:-translate-y-0.5"
                           >
                             Inquire Now <ArrowRight className="w-4 h-4" />
-                          </a>
+                          </Link>
                         </div>
                       </ScrollReveal>
                     </div>
